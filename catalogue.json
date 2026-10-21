@@ -1,9 +1,39 @@
 {
- "generated": "2026-10-20",
+ "generated": "2026-10-21",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 146,
+ "count": 150,
  "results": [
+  {
+   "date": "2026-10-20",
+   "problem": "Double-cap conjecture / Witsenhausen's problem on spherical sets without orthogonal pairs",
+   "result": "For n ≥ 3, sets in S^(n−1) with no orthogonal pair have measure at most that of two opposite caps of radius π/4, with equality only for double caps (claimed)",
+   "open_since": "1974",
+   "ai_system": "Codex; AI-assisted tools (unspecified)",
+   "human_role": "Human-led paper with an assistive AI role; the separate Lean proof was produced almost entirely with AI-assisted tools",
+   "verification": "Unrefereed preprint; separate Lean 4 proof (different argument) with Comparator and two kernels, statements written by the authors, self-assessed",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.27523",
+   "postcutoff": "https://postcutoff.com/e/2026-10-20-double-cap-conjecture-witsenhausen-lean-ai/",
+   "id": "2026-10-20-double-cap-conjecture-witsenhausen-lean-ai"
+  },
+  {
+   "date": "2026-10-20",
+   "problem": "Linear MDS conjecture (Segre 1955; maximum length of MDS codes / arcs), even characteristic",
+   "result": "For q even and 2 ≤ k ≤ q, the maximum length of a k-dimensional linear MDS code over F_q is q + 1, or q + 2 when k ∈ {3, q − 1}",
+   "open_since": "1955",
+   "ai_system": "ChatGPT; Claude; Claude Opus 5.5",
+   "human_role": "Human-led with AI tools: Kumar devised the argument and Claude helped formalize it in Lean; Chen and Huang used ChatGPT to explore proof strategies and check calculations",
+   "verification": "Lean 4 proof (Mathlib, Comparator, three kernels) registered on Palomar; the Challenge statement adds two definitions (HasMinimumDistance, IsMDS) and was written by the AI agent; arXiv preprint unrefereed",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "high",
+   "primary_source": "https://arxiv.org/abs/2610.28208",
+   "postcutoff": "https://postcutoff.com/e/2026-10-20-mds-conjecture-even-characteristic-chatgpt-claude-lean/",
+   "id": "2026-10-20-mds-conjecture-even-characteristic-chatgpt-claude-lean"
+  },
   {
    "date": "2026-10-20",
    "problem": "Borodin–Kostochka conjecture: χ ≤ max{ω, Δ − 1} for Δ ≥ 9",
@@ -36,6 +66,21 @@
   },
   {
    "date": "2026-10-19",
+   "problem": "Kaplansky's quasitrace conjecture (2-quasitraces / AW*-factors) and the monotone completeness conjecture for AW*-algebras",
+   "result": "Counterexample to the quasitrace conjecture (from an unreleased OpenAI model, reproduced with a modified construction) and a finite AW*-factor that is not monotone complete",
+   "open_since": "1951",
+   "ai_system": "Unreleased OpenAI model; GPT-6 Astra",
+   "human_role": "OpenAI model produced the original quasitrace counterexample; Arulseelan and Hanson re-derived it, devised the monotone completeness argument, and reworked GPT 6 Astra's preliminary write-up",
+   "verification": "Quasitrace disproof reproduced by named independent experts in an unrefereed preprint; monotone completeness result unrefereed",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.27184",
+   "postcutoff": "https://postcutoff.com/e/2026-10-19-quasitrace-monotone-completeness-counterexamples-openai/",
+   "id": "2026-10-19-quasitrace-monotone-completeness-counterexamples-openai"
+  },
+  {
+   "date": "2026-10-19",
    "problem": "Arveson's hyperrigidity conjecture for operator systems in commutative C*-algebras (Davidson–Kennedy Question 8.4 setting)",
    "result": "Claimed commutative counterexamples, including a finite-dimensional one of affine dimension ≤ 129.",
    "open_since": "",
@@ -63,6 +108,21 @@
    "primary_source": "https://arxiv.org/abs/2610.26539",
    "postcutoff": "https://postcutoff.com/e/2026-10-19-lemniscate-irrationality-exponent-chudnovsky-chatgpt/",
    "id": "2026-10-19-lemniscate-irrationality-exponent-chudnovsky-chatgpt"
+  },
+  {
+   "date": "2026-10-19",
+   "problem": "Neumann–Zagier conjecture (1985) on tree lattices isometric to Z^n",
+   "result": "Every positive definite tree lattice has an irreducible vertex; hence a tree presenting Z^n has a vertex of weight one",
+   "open_since": "1985",
+   "ai_system": "ChatGPT 5.5 Pro; Claude Opus 4.8",
+   "human_role": "AI-assisted: Issa obtained the first proof of Theorem 1.1 with the two models; the authors digested, simplified and strengthened it and wrote the paper themselves",
+   "verification": "Unrefereed preprint by named experts who checked and re-derived the AI argument",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "high",
+   "primary_source": "https://arxiv.org/abs/2610.27095",
+   "postcutoff": "https://postcutoff.com/e/2026-10-19-neumann-zagier-conjecture-tree-lattices-ai-proof/",
+   "id": "2026-10-19-neumann-zagier-conjecture-tree-lattices-ai-proof"
   },
   {
    "date": "2026-10-17",
@@ -1601,7 +1661,7 @@
    "open_since": "",
    "ai_system": "Claude",
    "human_role": "AI-assisted search directed by human researchers",
-   "verification": "Computer-checkable constructions",
+   "verification": "Computer-checkable constructions; independently verified and analysed by Egan, Kotsireas, London and Ó Catháin (arXiv 2610.27175)",
    "status": "confirmed",
    "lean": "no",
    "confidence": "medium",
@@ -2196,6 +2256,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-10-21",
+   "title": "AI-assisted results in the 21 Oct 2026 arXiv listing: a ChatGPT 6.1 Sol counterexample to Frankl–Ota–Tokushige, klt Fano proofs from ChatGPT, Vince's conjecture with GPT Astra, Pólya for spherical shells, a Claude-built 55-addition 3×3 scheme and a Claude Opus 5.5 lemma in reverse mathematics",
+   "postcutoff": "https://postcutoff.com/e/2026-10-21-ai-assisted-results-october-21-listing/"
+  },
   {
    "date": "2026-10-20",
    "title": "AI-assisted results in the 20 Oct 2026 arXiv listing: poset dimension proofs found by GPT-6 Astra, Hitchin domination from ChatGPT 5.6 Sol's ideas, the section conjecture for generic curves, Yau's geometric conjecture, Erdős–Gyárfás r = 5, a Claude-built Gray-code reduction, and a Lean harness solving 6/6 IMO 2026",
