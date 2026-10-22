@@ -1,9 +1,39 @@
 {
- "generated": "2026-10-21",
+ "generated": "2026-10-22",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 150,
+ "count": 153,
  "results": [
+  {
+   "date": "2026-10-21",
+   "problem": "Nagata's conjecture on plane curves (1959)",
+   "result": "For r ≥ 10 very general points in P², every nonzero curve of degree d with multiplicities m_i satisfies Σ m_i < d√r (claimed by OpenAI; reorganized and re-proved by Tevelev).",
+   "open_since": "1959",
+   "ai_system": "OpenAI internal model (unreleased)",
+   "human_role": "Autonomous AI proof (OpenAI release, no human author); Tevelev re-derived, simplified and presented it, using ChatGPT Astra only for editing and figures",
+   "verification": "Re-proved in reorganized form by a named independent specialist (Jenia Tevelev, arXiv 2610.30050, presented in a UMass Amherst talk); unrefereed",
+   "status": "confirmed",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.30050",
+   "postcutoff": "https://postcutoff.com/e/2026-10-21-nagata-conjecture-openai-proof-tevelev-exposition/",
+   "id": "2026-10-21-nagata-conjecture-openai-proof-tevelev-exposition"
+  },
+  {
+   "date": "2026-10-21",
+   "problem": "Hochster's small Cohen–Macaulay module conjecture (1973), domain form in equal characteristic zero; Eisenbud–Schreyer–Weyman Ulrich question (2003)",
+   "result": "A 3-dimensional complete Noetherian normal local domain over C with no nonzero finitely generated maximal Cohen–Macaulay module (OpenAI); Anghel extends the obstruction to all dimensions ≥ 3.",
+   "open_since": "1973",
+   "ai_system": "OpenAI internal model (unreleased); ChatGPT; Claude",
+   "human_role": "Counterexample autonomous (OpenAI release), building on human preprints by Anghel, Lopez and Chen; Anghel's survey re-proves and generalizes it, with proofs drafted with ChatGPT and Claude",
+   "verification": "Complete proof given in a survey by a named specialist (Anghel, arXiv 2610.30027), not independent of AI drafting; Lean scope note from OpenAI; nothing refereed",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.30027",
+   "postcutoff": "https://postcutoff.com/e/2026-10-21-hochster-small-cohen-macaulay-counterexample-openai-anghel-survey/",
+   "id": "2026-10-21-hochster-small-cohen-macaulay-counterexample-openai-anghel-survey"
+  },
   {
    "date": "2026-10-20",
    "problem": "Double-cap conjecture / Witsenhausen's problem on spherical sets without orthogonal pairs",
@@ -48,6 +78,21 @@
    "primary_source": "https://zenodo.org/records/23487163",
    "postcutoff": "https://postcutoff.com/e/2026-10-20-borodin-kostochka-threshold-4583-gpt-6-astra/",
    "id": "2026-10-20-borodin-kostochka-threshold-4583-gpt-6-astra"
+  },
+  {
+   "date": "2026-10-20",
+   "problem": "Gale's conjecture (1953) on partitions of 3D sets into four parts of smaller diameter",
+   "result": "A 101-point set in R³ whose every 4-partition has a part of diameter > 0.88928·diam, exceeding the sphere's 0.88807; first counterexample below dimension 9.",
+   "open_since": "1953",
+   "ai_system": "GPT-6 Astra; GigaEvo (DeepSeek 4; Qwen 3 Max; Gemini 3; Claude Opus 4.6)",
+   "human_role": "Human-led search; GPT-6 Astra co-developed the algorithms and heuristics (some proposed by the AI) that found the set",
+   "verification": "Explicit finite object checkable in exact integer arithmetic (coordinates in Appendix A, verification scripts in the repository); unrefereed, no Lean",
+   "status": "confirmed",
+   "lean": "no",
+   "confidence": "high",
+   "primary_source": "https://arxiv.org/abs/2610.28828",
+   "postcutoff": "https://postcutoff.com/e/2026-10-20-gale-conjecture-r3-counterexample-gpt-6-astra/",
+   "id": "2026-10-20-gale-conjecture-r3-counterexample-gpt-6-astra"
   },
   {
    "date": "2026-10-19",
@@ -1500,7 +1545,7 @@
    "status": "pending",
    "lean": "yes",
    "confidence": "medium",
-   "primary_source": "https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/README.md",
+   "primary_source": "https://arxiv.org/abs/2610.30063",
    "postcutoff": "https://postcutoff.com/e/2026-09-03-dying-percolation-theta-pc-zero/",
    "id": "2026-09-03-dying-percolation-theta-pc-zero"
   },
@@ -2256,6 +2301,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-10-22",
+   "title": "AI-assisted results in the 22 Oct 2026 arXiv listing: the gradient conjecture at infinity with GPT-6 Astra, Claude-built zero-knowledge PCPs, nucleon algorithms with GPT Sol 6.1 and Fable 5.1, Kelly's Condorcet conjectures",
+   "postcutoff": "https://postcutoff.com/e/2026-10-22-ai-assisted-results-october-22-listing/"
+  },
   {
    "date": "2026-10-21",
    "title": "AI-assisted results in the 21 Oct 2026 arXiv listing: a ChatGPT 6.1 Sol counterexample to Frankl–Ota–Tokushige, klt Fano proofs from ChatGPT, Vince's conjecture with GPT Astra, Pólya for spherical shells, a Claude-built 55-addition 3×3 scheme and a Claude Opus 5.5 lemma in reverse mathematics",
