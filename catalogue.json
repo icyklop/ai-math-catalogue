@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-23",
+ "generated": "2026-10-24",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 156,
+ "count": 158,
  "results": [
   {
    "date": "2026-10-22",
@@ -33,6 +33,21 @@
    "primary_source": "https://arxiv.org/abs/2610.31637",
    "postcutoff": "https://postcutoff.com/e/2026-10-22-simon-l2-conjecture-disproved-chatgpt/",
    "id": "2026-10-22-simon-l2-conjecture-disproved-chatgpt"
+  },
+  {
+   "date": "2026-10-22",
+   "problem": "Asymptotics of the Archimedean local height pairing in degenerations without assuming the Hodge conjecture",
+   "result": "Removes the Hodge-conjecture hypothesis (and minor hypotheses such as reduced simple normal crossing fibres) from the author's asymptotic formula h(t) − ⟨W,Z⟩ log|t| = O(1)",
+   "open_since": "",
+   "ai_system": "GPT-6 Astra; ChatGPT",
+   "human_role": "AI outlined the argument and found a related p-adic theorem of Scholl; the author worked out the remaining details and wrote the paper, at his advisor's suggestion to try AI",
+   "verification": "Unrefereed arXiv preprint",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "high",
+   "primary_source": "https://arxiv.org/abs/2610.30574",
+   "postcutoff": "https://postcutoff.com/e/2026-10-22-nakayama-local-height-without-hodge-conjecture-chatgpt-astra/",
+   "id": "2026-10-22-nakayama-local-height-without-hodge-conjecture-chatgpt-astra"
   },
   {
    "date": "2026-10-21",
@@ -213,6 +228,21 @@
    "primary_source": "https://arxiv.org/abs/2610.27095",
    "postcutoff": "https://postcutoff.com/e/2026-10-19-neumann-zagier-conjecture-tree-lattices-ai-proof/",
    "id": "2026-10-19-neumann-zagier-conjecture-tree-lattices-ai-proof"
+  },
+  {
+   "date": "2026-10-18",
+   "problem": "n-queens constant bounds; sharpness of the Cohn–Elkies LP bound; Tuza's conjecture special cases; packing records",
+   "result": "Claimed 120 records from an autonomous agent, including an ~84× narrower n-queens interval and certified non-sharpness of the Cohn–Elkies bound in dimensions 10 and 11",
+   "open_since": "",
+   "ai_system": "Épi; GPT-6 Astra; GPT-5.6 Sol",
+   "human_role": "Agent-driven campaigns with human-set budgets and starting points from published methods; fixed verifier; humans wrote the report",
+   "verification": "Unrefereed technical report with public certificates (dual vectors, witnesses); not independently checked",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.24944",
+   "postcutoff": "https://postcutoff.com/e/2026-10-18-bake-ai-epi-autonomous-research-agent-120-records/",
+   "id": "2026-10-18-bake-ai-epi-autonomous-research-agent-120-records"
   },
   {
    "date": "2026-10-17",
@@ -2346,6 +2376,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-10-24",
+   "title": "AI-assisted results in the 24 Oct 2026 sweep: ChatGPT 6 Astra removes a Hodge-conjecture assumption, Bake AI's Épi agent, Google's lab-in-the-loop aptamer agents, agentic turbulence closures",
+   "postcutoff": "https://postcutoff.com/e/2026-10-24-ai-assisted-results-october-24-listing/"
+  },
   {
    "date": "2026-10-23",
    "title": "AI-assisted results in the 23 Oct 2026 arXiv listing: DeepMind's Gemini 4 Argon loop on Lehmer's problem, Demmel's Claude Code-built MRRR SVD solver, a Claude–GPT agent harness proof with Lean, GPT-6 Astra on k-Hessian and Steklov problems",
