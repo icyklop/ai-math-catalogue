@@ -2,7 +2,7 @@
 
 Mathematical results where an AI system (language models, agents, provers such as AlphaProof, AlphaEvolve, Aristotle or AxiomProver) played a disclosed role, from the [Post-Cutoff](https://postcutoff.com/) timeline. One row per result, with what was claimed, which system was used, what the humans did, and how far the result has been checked.
 
-**158 results** (50 confirmed, 106 pending, 1 disputed, 1 retracted; 76 with a Lean formalization) and 14 batch catalogues of smaller results. Generated 2026-10-24 from the timeline's data; it is regenerated with every update.
+**158 results** (50 confirmed, 106 pending, 1 disputed, 1 retracted; 76 with a Lean formalization) and 14 batch catalogues of smaller results. Generated 2026-10-25 from the timeline's data; it is regenerated with every update.
 
 **How to read the status.** *confirmed*: refereed; a complete Lean proof of an independently written or Mathlib-only statement; re-checked or re-proved by named independent experts; or an explicit finite construction or counterexample anyone can check by computation. *pending*: a preprint or unrefereed record. *disputed* / *retracted*: as stated. Several pending items are self-published claims by authors outside the field; their verification column says "unverified claim". Each row links to an entry on postcutoff.com with the sources, the authors' AI-use statement quoted where one exists, and a change log.
 
