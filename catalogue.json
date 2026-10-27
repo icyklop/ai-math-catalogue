@@ -2,7 +2,7 @@
  "generated": "2026-10-27",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 163,
+ "count": 166,
  "results": [
   {
    "date": "2026-10-26",
@@ -18,6 +18,21 @@
    "primary_source": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
    "postcutoff": "https://postcutoff.com/e/2026-10-26-openai-local-smoothing-kakeya-all-dimensions-claim/",
    "id": "2026-10-26-openai-local-smoothing-kakeya-all-dimensions-claim"
+  },
+  {
+   "date": "2026-10-25",
+   "problem": "Golomb–Welch conjecture (c. 1968–1970): no perfect r-error-correcting Lee code in ℤⁿ for n ≥ 3, r ≥ 2",
+   "result": "Claimed full proof, in both the lattice and the arbitrary-centre forms",
+   "open_since": "1970",
+   "ai_system": "ChatGPT",
+   "human_role": "AI-assisted: authors used ChatGPT to explore proof strategies and check calculations; the authors say they wrote all results and proofs",
+   "verification": "Unrefereed arXiv preprints (2610.33983, 2610.34291); no formalization",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.34291",
+   "postcutoff": "https://postcutoff.com/e/2026-10-25-golomb-welch-conjecture-perfect-lee-codes-chatgpt/",
+   "id": "2026-10-25-golomb-welch-conjecture-perfect-lee-codes-chatgpt"
   },
   {
    "date": "2026-10-23",
@@ -951,6 +966,21 @@
   },
   {
    "date": "2026-10-06",
+   "problem": "Harary–Hill (Guy) conjecture on cr(K_n); Zarankiewicz's crossing-number conjecture for K_m,n (Turán's brick-factory problem, 1944)",
+   "result": "Claimed exact formulas for all n and all m, n, with Lean proofs of both equalities; independent simplified human proof of the K_n case (Balko)",
+   "open_since": "1954",
+   "ai_system": "OpenAI internal model (openai/math release); ChatGPT (Astra) for Balko's exposition",
+   "human_role": "Manuscripts credited to 'OpenAI' as model output with no human author; human reading, simplification and exposition by Balko (with ChatGPT's help in understanding the proof), another exposition in preparation by Salazar",
+   "verification": "Lean formalization per OpenAI (comparator-accepted in a community run); simplified human proof in an unrefereed arXiv preprint; no refereed publication",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://github.com/openai/math/blob/main/preprints/The-crossing-number-of-complete-graphs-September-23-2026/paper.pdf",
+   "postcutoff": "https://postcutoff.com/e/2026-10-06-harary-hill-zarankiewicz-crossing-numbers-openai/",
+   "id": "2026-10-06-harary-hill-zarankiewicz-crossing-numbers-openai"
+  },
+  {
+   "date": "2026-10-06",
    "problem": "Hodge conjecture for CM abelian varieties; Tate conjecture for abelian varieties over finite fields",
    "result": "Claimed: every rational Hodge class on a complex CM abelian variety is a ℚ-linear combination of algebraic cycle classes; consequences for Tate and the Hodge standard conjecture.",
    "open_since": "1950",
@@ -1821,6 +1851,21 @@
   },
   {
    "date": "2026-08-19",
+   "problem": "Carathéodory's conjecture (every closed convex surface in ℝ³ has ≥ 2 umbilics) and Loewner's conjecture (umbilic index ≤ 1), in the C^∞ category",
+   "result": "Explicit C^∞ counterexamples: umbilics of index 1 + k/2 for every positive integer k, and a strictly convex smooth closed surface with exactly one umbilic (index 2); simplified independently by Ando and Umehara",
+   "open_since": "1924",
+   "ai_system": "Claude (Anthropic); ChatGPT (GPT-6.1)",
+   "human_role": "AI-assisted: Alpöge and John-Paul Smith worked on the problem with Claude, which also checked it; Ando and Umehara used GPT-6.1 to search for candidate seed functions",
+   "verification": "X-post announcement with explicit formulas; independent simplified construction in an unrefereed arXiv preprint by specialists (2610.34036); no formal proof",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.34036",
+   "postcutoff": "https://postcutoff.com/e/2026-08-19-caratheodory-loewner-smooth-counterexamples-alpoge-claude/",
+   "id": "2026-08-19-caratheodory-loewner-smooth-counterexamples-alpoge-claude"
+  },
+  {
+   "date": "2026-08-19",
    "problem": "Yau–Tian–Donaldson conjecture for constant scalar curvature Kähler metrics",
    "result": "Claimed explicit K-polystable polarized smooth projective fivefold without a cscK metric.",
    "open_since": "",
@@ -2451,6 +2496,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-10-27",
+   "title": "AI-assisted results in the 27 Oct 2026 sweep: Muckenhoupt's C_p conjecture, Graham's rearrangement conjecture in abelian groups, a quasi-polynomial χ-bound for P₆-free graphs, Haagerup's 1975 problem, Langberg–Médard, and proofs whose main idea came from Claude or GPT",
+   "postcutoff": "https://postcutoff.com/e/2026-10-27-ai-assisted-results-october-27-listing/"
+  },
   {
    "date": "2026-10-26",
    "title": "AI-assisted results in the 26 Oct 2026 sweep: Claude-written Lean proof of a frame-indifferent rank-one convex function that is not quasiconvex, a sculptor and Claude Code prove Takemura's conjecture, Claude's contribution to deterministic root-finding, and Zenodo records",
