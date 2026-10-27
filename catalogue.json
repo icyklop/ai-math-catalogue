@@ -1,9 +1,69 @@
 {
- "generated": "2026-10-25",
+ "generated": "2026-10-27",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 158,
+ "count": 163,
  "results": [
+  {
+   "date": "2026-10-26",
+   "problem": "Sogge's local smoothing conjecture (1991) in all dimensions; consequences: Bochner–Riesz, Stein's restriction conjecture (interior of range), Kakeya maximal and set conjectures in ℝⁿ",
+   "result": "Claimed proof of local smoothing for the Euclidean wave equation in every dimension n ≥ 2 with ε loss, with Bochner–Riesz, restriction in the interior of the range, Nikodym/Kakeya maximal bounds and full Hausdorff dimension of Kakeya sets as corollaries",
+   "open_since": "1991",
+   "ai_system": "OpenAI internal model (openai/math release)",
+   "human_role": "Credited to 'OpenAI'; released as 'model output directly', with no named human authors and no designated reviewers",
+   "verification": "Unrefereed manuscript; OpenAI lists Lean comparator statements for the main estimate and the corollaries (not checked by us); no expert assessment yet",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+   "postcutoff": "https://postcutoff.com/e/2026-10-26-openai-local-smoothing-kakeya-all-dimensions-claim/",
+   "id": "2026-10-26-openai-local-smoothing-kakeya-all-dimensions-claim"
+  },
+  {
+   "date": "2026-10-23",
+   "problem": "Propeller conjecture (Khot–Naor 2008)",
+   "result": "OpenAI's every-dimension proof (Lean comparator statement) simplified by an expert, with equality cases characterised and the 3D computer search removed",
+   "open_since": "2008",
+   "ai_system": "OpenAI internal model (openai/math release); GPT-6",
+   "human_role": "OpenAI model produced the original proof; Heilman (a prior contributor to the problem) rewrote and improved it, using GPT-6 for manuscript preparation",
+   "verification": "Lean comparator statement in OpenAI's repository; independent human proof posted on arXiv (unrefereed)",
+   "status": "confirmed",
+   "lean": "yes",
+   "confidence": "high",
+   "primary_source": "https://arxiv.org/abs/2610.32158",
+   "postcutoff": "https://postcutoff.com/e/2026-10-23-propeller-conjecture-openai-proof-heilman-simplification/",
+   "id": "2026-10-23-propeller-conjecture-openai-proof-heilman-simplification"
+  },
+  {
+   "date": "2026-10-23",
+   "problem": "Tokareva's conjecture on sums of two bent functions (and her derivative conjecture)",
+   "result": "Disproved for every even n ≥ 8 (derivative conjecture for even n ≥ 10) with an explicit quartic counterexample",
+   "open_since": "",
+   "ai_system": "MiniMax M3.1-Flash-Preview",
+   "human_role": "Agents found the counterexamples and proofs during an olympiad; humans checked every statement and formalized two key equations in Lean",
+   "verification": "Unrefereed arXiv preprint; partial Lean 4 formalization (Eq. 4.2, 4.7)",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.32239",
+   "postcutoff": "https://postcutoff.com/e/2026-10-23-tokareva-bent-functions-conjecture-disproved-minimax-agents/",
+   "id": "2026-10-23-tokareva-bent-functions-conjecture-disproved-minimax-agents"
+  },
+  {
+   "date": "2026-10-23",
+   "problem": "Lower tail of triangle counts in sparse G(n,p); conjecture of Yufei Zhao and open problem of Janson–Warnke",
+   "result": "Variational problem solved for every η ∈ (0,1): minimizers are constant or balanced two-block graphons, with a first-order transition at η* = 0.009217…",
+   "open_since": "",
+   "ai_system": "GPT-6 Astra; Claude Opus 5.5; GPT-6.1 Sol",
+   "human_role": "AI-assisted: authors expected the answer from Zhao's work; GPT-6 Astra suggested key proof strategies, Claude helped with the computer-assisted proof, models wrote parts of the verification code and Lean",
+   "verification": "Unrefereed arXiv preprint with validated numerics and a Lean 4 formalization",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.32879",
+   "postcutoff": "https://postcutoff.com/e/2026-10-23-triangle-lower-tail-zhao-conjecture-gpt-6-astra-claude/",
+   "id": "2026-10-23-triangle-lower-tail-zhao-conjecture-gpt-6-astra-claude"
+  },
   {
    "date": "2026-10-22",
    "problem": "Constructing a solution of the two-dimensional KPZ equation at criticality",
@@ -135,7 +195,7 @@
    "status": "pending",
    "lean": "no",
    "confidence": "medium",
-   "primary_source": "https://zenodo.org/records/23487163",
+   "primary_source": "https://zenodo.org/records/23653610",
    "postcutoff": "https://postcutoff.com/e/2026-10-20-borodin-kostochka-threshold-4583-gpt-6-astra/",
    "id": "2026-10-20-borodin-kostochka-threshold-4583-gpt-6-astra"
   },
@@ -900,7 +960,7 @@
    "status": "pending",
    "lean": "no",
    "confidence": "medium",
-   "primary_source": "https://github.com/openai/math/blob/main/history.md",
+   "primary_source": "https://github.com/openai/math/blob/main/lean/docs/032.md",
    "postcutoff": "https://postcutoff.com/e/2026-10-06-hodge-conjecture-cm-abelian-varieties-openai/",
    "id": "2026-10-06-hodge-conjecture-cm-abelian-varieties-openai"
   },
@@ -930,7 +990,7 @@
    "status": "pending",
    "lean": "yes",
    "confidence": "medium",
-   "primary_source": "https://arxiv.org/abs/2610.15483",
+   "primary_source": "https://github.com/ammkrn/nanoda_lib/issues/55",
    "postcutoff": "https://postcutoff.com/e/2026-10-06-quasi-riemann-hypothesis-openai/",
    "id": "2026-10-06-quasi-riemann-hypothesis-openai"
   },
@@ -963,6 +1023,21 @@
    "primary_source": "https://arxiv.org/abs/2610.07537",
    "postcutoff": "https://postcutoff.com/e/2026-10-06-gch-above-strongly-compact-woodin-question/",
    "id": "2026-10-06-gch-above-strongly-compact-woodin-question"
+  },
+  {
+   "date": "2026-10-06",
+   "problem": "Formalization of Hironaka's resolution of singularities in characteristic zero (1964)",
+   "result": "Sorry-free Lean 4 + Mathlib library (~500–600k lines) of Hironaka's main theorems and modern refinements, for schemes and analytic spaces",
+   "open_since": "1964",
+   "ai_system": "Claude Fable 5.1; GPT-6 Astra",
+   "human_role": "Humans wrote the 112-page plan, chose sources and intervened ~30 times; agents wrote the proofs and Lean code",
+   "verification": "Formal proof in Lean (no sorry per README; Comparator checks against challenge statements); not independently audited by us",
+   "status": "confirmed",
+   "lean": "yes",
+   "confidence": "high",
+   "primary_source": "https://resolution.org/post/formalizing-resolution-of-singularities",
+   "postcutoff": "https://postcutoff.com/e/2026-10-06-hironaka-resolution-of-singularities-lean-fable-agents/",
+   "id": "2026-10-06-hironaka-resolution-of-singularities-lean-fable-agents"
   },
   {
    "date": "2026-10-06",
@@ -1140,7 +1215,7 @@
    "status": "pending",
    "lean": "yes",
    "confidence": "medium",
-   "primary_source": "https://github.com/mt0-svg/tammes-15",
+   "primary_source": "https://zenodo.org/records/23608429",
    "postcutoff": "https://postcutoff.com/e/2026-09-30-mt0-svg-ai-generated-tammes-15-robbins-frog-model-lean/",
    "id": "2026-09-30-mt0-svg-ai-generated-tammes-15-robbins-frog-model-lean"
   },
@@ -2376,6 +2451,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-10-26",
+   "title": "AI-assisted results in the 26 Oct 2026 sweep: Claude-written Lean proof of a frame-indifferent rank-one convex function that is not quasiconvex, a sculptor and Claude Code prove Takemura's conjecture, Claude's contribution to deterministic root-finding, and Zenodo records",
+   "postcutoff": "https://postcutoff.com/e/2026-10-26-ai-assisted-results-october-26-listing/"
+  },
   {
    "date": "2026-10-24",
    "title": "AI-assisted results in the 24 Oct 2026 sweep: ChatGPT 6 Astra removes a Hodge-conjecture assumption, Bake AI's Épi agent, Google's lab-in-the-loop aptamer agents, agentic turbulence closures",
