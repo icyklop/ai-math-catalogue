@@ -1,9 +1,39 @@
 {
- "generated": "2026-10-27",
+ "generated": "2026-10-28",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 166,
+ "count": 169,
  "results": [
+  {
+   "date": "2026-10-27",
+   "problem": "Classification of Finite Simple Groups (announced c. 1983, quasithin gap closed by Aschbacher–Smith 2004): formal machine-checked proof",
+   "result": "Claimed complete, sorry-free Lean 4 formalization of the first-generation CFSG proof against TauCeti's statement, plus a repaired step in one published route to the Unbalanced Group Theorem",
+   "open_since": "1983",
+   "ai_system": "AxiomProver; Axiom agents (models not disclosed)",
+   "human_role": "AI agents formalized the literature from a human-written blueprint; about 34 named mathematicians and engineers; experts Lyons and Solomon consulted",
+   "verification": "Lean 4 kernel check claimed by the team (sorry-free, standard axioms); not yet independently rebuilt or audited",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://cfsg.axiommath.ai/",
+   "postcutoff": "https://postcutoff.com/e/2026-10-27-axiom-cfsg-classification-finite-simple-groups-lean/",
+   "id": "2026-10-27-axiom-cfsg-classification-finite-simple-groups-lean"
+  },
+  {
+   "date": "2026-10-27",
+   "problem": "Morgan–Mullen conjecture (1996): existence of a primitive completely normal element in every finite field extension; Hachenberger's lower bound",
+   "result": "Claimed full confirmation of Morgan–Mullen (case n > q new, n ≤ q by Garefalakis–Kapetanakis) and of Hachenberger's bound for all (q, n)",
+   "open_since": "1996",
+   "ai_system": "Claude Fable 5.1; Claude Opus 5.5",
+   "human_role": "AI-generated arguments, text, code and Lean under the author's direction; the author checked the proof by hand and the formal statements",
+   "verification": "Unrefereed arXiv preprint; Lean 4 formalization of the new case (with two cited results as axioms and compiler-trusted computation)",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.36534",
+   "postcutoff": "https://postcutoff.com/e/2026-10-27-morgan-mullen-conjecture-claude-lean/",
+   "id": "2026-10-27-morgan-mullen-conjecture-claude-lean"
+  },
   {
    "date": "2026-10-26",
    "problem": "Sogge's local smoothing conjecture (1991) in all dimensions; consequences: Bochner–Riesz, Stein's restriction conjecture (interior of range), Kakeya maximal and set conjectures in ℝⁿ",
@@ -1083,6 +1113,21 @@
    "primary_source": "https://github.com/openai/math/blob/main/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf",
    "postcutoff": "https://postcutoff.com/e/2026-10-06-irrationality-exponent-pi-openai/",
    "id": "2026-10-06-irrationality-exponent-pi-openai"
+  },
+  {
+   "date": "2026-10-06",
+   "problem": "De Giorgi's conjecture (1978): monotone bounded entire solutions of Δu = u³ − u in ℝⁿ, n ≤ 8, are one-dimensional; also stable rigidity in ℝ⁷",
+   "result": "Claimed proof in the sharp dimension 8 without Savin's limit assumption; classification of stable solutions in ℝ⁷ without energy growth",
+   "open_since": "1978",
+   "ai_system": "OpenAI internal model (math release)",
+   "human_role": "Autonomous AI output released by OpenAI",
+   "verification": "Unrefereed preprint in the OpenAI release; no Lean formalization; used as a framework by one follow-up paper",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://github.com/openai/math/blob/main/preprints/De-Giorgis-conjecture-in-dimension-eight-September-26-2026/article.pdf",
+   "postcutoff": "https://postcutoff.com/e/2026-10-06-openai-de-giorgi-conjecture-dimension-eight/",
+   "id": "2026-10-06-openai-de-giorgi-conjecture-dimension-eight"
   },
   {
    "date": "2026-10-06",
@@ -2496,6 +2541,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-10-28",
+   "title": "AI-assisted results in the 28 Oct 2026 sweep: Bialostocki–Lotspeich (1992), part of Gross–Prasad in geometric Langlands, Fuglede in 𝔽₂⁸, a TEMPO structure found by Claude, agent swarms on fractional Chern insulators, and a human digest of GPT-6 Astra's Smale counterexample",
+   "postcutoff": "https://postcutoff.com/e/2026-10-28-ai-assisted-results-october-28-listing/"
+  },
   {
    "date": "2026-10-27",
    "title": "AI-assisted results in the 27 Oct 2026 sweep: Muckenhoupt's C_p conjecture, Graham's rearrangement conjecture in abelian groups, a quasi-polynomial χ-bound for P₆-free graphs, Haagerup's 1975 problem, Langberg–Médard, and proofs whose main idea came from Claude or GPT",
