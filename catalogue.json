@@ -2,8 +2,23 @@
  "generated": "2026-10-29",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 197,
+ "count": 208,
  "results": [
+  {
+   "date": "2026-10-28",
+   "problem": "Serre's 1960 conjecture: the Artin function of a finite group acting on a regular local ring with isolated fixed points is the character of an ℓ-adic representation",
+   "result": "Proof in mixed characteristic, completing the conjecture (positive characteristic: Abe 2025; residue characteristic zero: classical)",
+   "open_since": "1960",
+   "ai_system": "GPT-6 Astra",
+   "human_role": "Kisin directed the work; GPT Astra was used extensively to find the proofs and write the first draft; Kisin checked, refined and rewrote",
+   "verification": "Unrefereed Hexagon preprint by a leading number theorist",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2610.00597v1",
+   "postcutoff": "https://postcutoff.com/e/2026-10-28-kisin-serre-artin-character-conjecture-gpt-astra/",
+   "id": "2026-10-28-kisin-serre-artin-character-conjecture-gpt-astra"
+  },
   {
    "date": "2026-10-27",
    "problem": "Classification of Finite Simple Groups (announced c. 1983, quasithin gap closed by Aschbacher–Smith 2004): formal machine-checked proof",
@@ -18,6 +33,21 @@
    "primary_source": "https://cfsg.axiommath.ai/",
    "postcutoff": "https://postcutoff.com/e/2026-10-27-axiom-cfsg-classification-finite-simple-groups-lean/",
    "id": "2026-10-27-axiom-cfsg-classification-finite-simple-groups-lean"
+  },
+  {
+   "date": "2026-10-27",
+   "problem": "Erdős–Lovász problem: the maximum size m(k) of an intersecting k-uniform family with covering number k; Frankl–Ota–Tokushige conjecture m(k) < (ck)^k",
+   "result": "m(k) ≥ k^k·exp(−50√(k log k)) for log k ≥ 32, so m(k) = k^k·exp(−k^(1/2+o(1))) with Zakharov's bound; the Frankl–Ota–Tokushige conjecture is false for large k",
+   "open_since": "1975",
+   "ai_system": "unnamed generative AI tools",
+   "human_role": "AI found the construction; the authors verified the proofs, reworked the arguments and wrote the exposition",
+   "verification": "Unrefereed arXiv preprint",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.37315",
+   "postcutoff": "https://postcutoff.com/e/2026-10-27-erdos-lovasz-intersecting-covering-number-frankl-ai-construction/",
+   "id": "2026-10-27-erdos-lovasz-intersecting-covering-number-frankl-ai-construction"
   },
   {
    "date": "2026-10-27",
@@ -378,6 +408,21 @@
    "primary_source": "https://arxiv.org/abs/2610.24944",
    "postcutoff": "https://postcutoff.com/e/2026-10-18-bake-ai-epi-autonomous-research-agent-120-records/",
    "id": "2026-10-18-bake-ai-epi-autonomous-research-agent-120-records"
+  },
+  {
+   "date": "2026-10-17",
+   "problem": "Non-uniqueness of weak solutions of the unforced 2D Euler equations with vorticity in L^p, 2 < p < ∞ (beyond Yudovich's uniqueness class; the unforced form of Vishik's theorem)",
+   "result": "Three independent claimed constructions of two distinct solutions with the same initial vorticity: vanishing-viscosity solutions for every p > 2 (Pappalettera–Sorella, fully AI-generated), renormalized weak solutions in L¹ ∩ L^q for every q < ∞ (Coiculescu, Lean-formalized), and finite-energy solutions in every finite L^p (Choi)",
+   "open_since": "1963",
+   "ai_system": "GPT-6.1 Sol; Claude Opus 5.5; ChatGPT 5.6; ChatGPT 6.0; ChatGPT 6.1; GPT-6 Astra",
+   "human_role": "Ranges from none (Pappalettera–Sorella: prompted only, no edits, no claim of authorship) to human strategy with AI-written details (Coiculescu: idea and strategy his, proofs, code and text largely by Claude; Choi: main ideas his, ChatGPT completed technical details)",
+   "verification": "Unrefereed preprints (Hexagon, arXiv); Coiculescu reports a complete Lean 4 formalization with a Lean-verified interval-arithmetic checker, not independently rebuilt",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2610.00314v1",
+   "postcutoff": "https://postcutoff.com/e/2026-10-17-2d-euler-unforced-nonuniqueness-lp-vorticity-ai/",
+   "id": "2026-10-17-2d-euler-unforced-nonuniqueness-lp-vorticity-ai"
   },
   {
    "date": "2026-10-17",
@@ -981,6 +1026,21 @@
   },
   {
    "date": "2026-10-07",
+   "problem": "Chai's invariant-ideal conjecture for Lubin–Tate deformation rings and the Hovey–Strickland conjecture on thick tensor ideals of dualizable K(n)-local spectra",
+   "result": "Claimed by three independent sources: Chenglong Ma (arXiv, 7 Oct), Ningyi Li (manuscript) and OpenAI's release (24 Sept manuscript), which Ma says matches his ChatGPT-uploaded draft",
+   "open_since": "",
+   "ai_system": "ChatGPT; OpenAI internal model (math release)",
+   "human_role": "Ma: human route, ChatGPT checked the height-3 case and proposed one repair (Appendix A). OpenAI: released without named authors",
+   "verification": "Unrefereed preprints; no formalization",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.10072",
+   "postcutoff": "https://postcutoff.com/e/2026-10-07-chenglong-ma-hovey-strickland-openai-chatgpt-upload-provenance/",
+   "id": "2026-10-07-chenglong-ma-hovey-strickland-openai-chatgpt-upload-provenance"
+  },
+  {
+   "date": "2026-10-07",
    "problem": "Cyclicity conjecture: is the peripheral spectrum of every positive operator on a complex Banach lattice cyclic?",
    "result": "Claimed yes in full generality, with no growth assumptions, via spectral domination and rotationally self-similar critical minorants.",
    "open_since": "1960s",
@@ -1086,6 +1146,21 @@
   },
   {
    "date": "2026-10-06",
+   "problem": "Borsuk's conjecture (1933): every bounded set in ℝᵈ can be partitioned into d + 1 sets of smaller diameter; smallest dimension in which it fails",
+   "result": "Claimed: the compact projector image of ℝP³ in the 9-dimensional trace-one space needs more than ten pieces, so the conjecture fails in every dimension d ≥ 9 (previous smallest known dimension 63, for finite sets). Every finite subset needs at most eight pieces (Damásdi), so the finite version below 63 stays open",
+   "open_since": "1933",
+   "ai_system": "OpenAI internal model (openai/math release)",
+   "human_role": "Autonomous output released without named authors; the construction was known (Kahn–Kalai, Kalai 2015), the covering obstruction is the model's",
+   "verification": "Lean 4 proof of the main theorem, accepted by the community Comparator run (25–26 Oct) and replayed by an AI-run tracker; manuscript unrefereed; no published full check by a human expert (as of 29 Oct)",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://github.com/openai/math/blob/main/preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/paper.pdf",
+   "postcutoff": "https://postcutoff.com/e/2026-10-06-openai-borsuk-conjecture-dimension-nine-counterexample/",
+   "id": "2026-10-06-openai-borsuk-conjecture-dimension-nine-counterexample"
+  },
+  {
+   "date": "2026-10-06",
    "problem": "Cannon's conjecture: does every word-hyperbolic group whose Gromov boundary is a 2-sphere act geometrically (properly, cocompactly, isometrically) on hyperbolic 3-space?",
    "result": "Claimed proof for all such groups (finite kernel allowed), via a fixed-scale combinatorial 2-modulus bound and the Bourdon–Kleiner criterion; Lean formalization of the conclusion",
    "open_since": "",
@@ -1113,6 +1188,21 @@
    "primary_source": "https://github.com/openai/math/blob/main/preprints/Catalans-constant-is-irrational-September-24-2026/paper.pdf",
    "postcutoff": "https://postcutoff.com/e/2026-10-06-openai-catalan-constant-irrational/",
    "id": "2026-10-06-openai-catalan-constant-irrational"
+  },
+  {
+   "date": "2026-10-06",
+   "problem": "Deligne–Drinfeld conjecture: the Grothendieck–Teichmüller Lie algebra grt₁ is freely generated by one element in each odd weight 3, 5, 7, …",
+   "result": "Proved in full by OpenAI's internal model (dimension upper bound via characteristic two). An expert simplified the proof over 𝔽₂ and accepted that it settles the conjecture (Willwacher), and a second, independent proof identifies the motivic Galois group of mixed Tate motives over ℤ with GRT (Hirose)",
+   "open_since": "1990",
+   "ai_system": "OpenAI internal model (openai/math release)",
+   "human_role": "AI-generated original proof; Schneps and Enriquez reworked it, Willwacher simplified and re-proved it with AI help, Hirose gave an independent proof (discussing the mathematics with GPT-6 Astra Pro)",
+   "verification": "Lean 4 formalization of the main statement (Comparator-accepted, 25–26 Oct); expert re-proof (Willwacher) and an independent alternative proof (Hirose), both unrefereed arXiv preprints; discussed at the HMI workshop in Dublin",
+   "status": "confirmed",
+   "lean": "yes",
+   "confidence": "high",
+   "primary_source": "https://github.com/openai/math/blob/main/preprints/The-Deligne-Drinfeld-conjecture-September-23-2026/paper.pdf",
+   "postcutoff": "https://postcutoff.com/e/2026-10-06-openai-deligne-drinfeld-conjecture-proof/",
+   "id": "2026-10-06-openai-deligne-drinfeld-conjecture-proof"
   },
   {
    "date": "2026-10-06",
@@ -1221,6 +1311,21 @@
   },
   {
    "date": "2026-10-06",
+   "problem": "Kadison's similarity problem (1955): is every bounded representation of a C*-algebra on a Hilbert space similar to a *-representation?",
+   "result": "Claimed: yes, for every unital C*-algebra and every Hilbert space, together with a uniform amplified commutator estimate and one hyperreflexivity constant for all von Neumann algebras",
+   "open_since": "1955",
+   "ai_system": "OpenAI internal model (openai/math release)",
+   "human_role": "Autonomous AI output released by OpenAI under its fixed procedure (README)",
+   "verification": "Lean formalization of the full statement (comparator accepted in two independent runs); no published expert verification yet",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://github.com/openai/math/blob/main/preprints/Kadisons-similarity-theorem-through-uniform-derivation-estimates-September-23-2026/paper.pdf",
+   "postcutoff": "https://postcutoff.com/e/2026-10-06-openai-kadison-similarity-problem-lean/",
+   "id": "2026-10-06-openai-kadison-similarity-problem-lean"
+  },
+  {
+   "date": "2026-10-06",
    "problem": "Kaplansky's zero-divisor conjecture (K[G] has no zero divisors for torsion-free G) and direct-finiteness conjecture (ab = 1 implies ba = 1 in K[G]); Gottschalk's surjunctivity conjecture; the group-ring Determinant Conjecture",
    "result": "Claimed counterexamples: zero divisors in F₂[G] for a finitely presented torsion-free G with a 2-dimensional classifying space; one-sided inverses in K[G] in characteristic 2 (finitely presented G), odd characteristic and over F₂ for torsion-free G; injective non-surjective cellular automata; a Z[G]-matrix with Fuglede–Kadison determinant in (0, 1)",
    "open_since": "1940",
@@ -1278,6 +1383,21 @@
    "primary_source": "https://github.com/openai/math/blob/main/preprints/The-Euclidean-plane-is-not-five-colorable-September-23-2026/paper.pdf",
    "postcutoff": "https://postcutoff.com/e/2026-10-06-openai-plane-not-five-colourable-hadwiger-nelson-claim/",
    "id": "2026-10-06-openai-plane-not-five-colourable-hadwiger-nelson-claim"
+  },
+  {
+   "date": "2026-10-06",
+   "problem": "Large-data global classical existence for the three-dimensional relativistic Vlasov–Maxwell system (open since Glassey and Strauss's 1986 continuation criterion)",
+   "result": "Claimed: every smooth compactly supported nonnegative particle density with smooth finite-energy fields satisfying the Gauss laws has a unique global classical solution, smooth on every finite time interval",
+   "open_since": "1986",
+   "ai_system": "OpenAI internal model (openai/math release)",
+   "human_role": "Autonomous AI output released by OpenAI under its fixed procedure (README); a summary of the model's reasoning is published",
+   "verification": "Lean formalization of the full statement (comparator accepted in two independent runs); no published expert verification yet",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://github.com/openai/math/blob/main/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/paper.pdf",
+   "postcutoff": "https://postcutoff.com/e/2026-10-06-openai-relativistic-vlasov-maxwell-global-solutions-lean/",
+   "id": "2026-10-06-openai-relativistic-vlasov-maxwell-global-solutions-lean"
   },
   {
    "date": "2026-10-06",
@@ -1476,6 +1596,21 @@
   },
   {
    "date": "2026-10-06",
+   "problem": "Rauch's hot spots conjecture, simply connected planar case (Burdzy 2005, Conjecture 1.2(ii)), in its strict form",
+   "result": "Claimed: on every smooth bounded simply connected planar domain, every first nonconstant Neumann eigenfunction has no interior critical point, so its extrema lie only on the boundary; eigenvalue multiplicity allowed",
+   "open_since": "1974",
+   "ai_system": "OpenAI internal model (openai/math release); ChatGPT (follow-ups by Burdzy and Bañuelos)",
+   "human_role": "Autonomous AI output released by OpenAI under its fixed procedure (README); the follow-ups were generated with ChatGPT from prompts by Burdzy and by Bañuelos",
+   "verification": "Lean formalization of the main theorem (comparator accepted); cited by specialists, but no published expert verification yet",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://github.com/openai/math/blob/main/preprints/Strict-hot-spots-and-absence-of-interior-critical-points-on-smooth-simply-connected-planar-domains-September-24-2026/main.pdf",
+   "postcutoff": "https://postcutoff.com/e/2026-10-06-openai-hot-spots-conjecture-simply-connected-lean/",
+   "id": "2026-10-06-openai-hot-spots-conjecture-simply-connected-lean"
+  },
+  {
+   "date": "2026-10-06",
    "problem": "Abundance conjecture (κ = ν; nef lc adjoints are semiample) and the nonvanishing conjecture, open in dimension ≥ 4; also Iitaka's subadditivity conjecture C_{n,m}",
    "result": "OpenAI claims log abundance for rational-boundary lc pairs and canonical nonvanishing in every dimension in characteristic zero. Liu (human-led, AI-assisted) proves nonvanishing ⇒ abundance for lc pairs",
    "open_since": "1980s (abundance in its standard form; threefold case finished in 1992)",
@@ -1518,6 +1653,21 @@
    "primary_source": "https://github.com/openai/math/blob/main/preprints/A-counterexample-to-the-nearby-Lagrangian-conjecture-September-23-2026/paper.pdf",
    "postcutoff": "https://postcutoff.com/e/2026-10-06-openai-nearby-lagrangian-conjecture-counterexample/",
    "id": "2026-10-06-openai-nearby-lagrangian-conjecture-counterexample"
+  },
+  {
+   "date": "2026-10-06",
+   "problem": "Periodic tiling conjecture (explicit Euclidean formulation by Lagarias and Wang, 1996): every finite subset of ℤᵈ that tiles it by translations also tiles it periodically; likewise for bounded tiles of ℝᵈ",
+   "result": "Claimed: a finite tile of ℤ³, and its unit-cube thickening in ℝ³, that tiles but has no fully periodic tiling, the lowest possible lattice dimension (Greenfeld–Tao had a counterexample only in very high dimension)",
+   "open_since": "1996",
+   "ai_system": "OpenAI internal model (openai/math release)",
+   "human_role": "Autonomous output released without named authors; method adapted from Greenfeld and Tao's Sudoku construction",
+   "verification": "Lean 4 proof of the full statement including minimality, accepted by the community Comparator run (25–26 Oct); gadgets of Sections 3–6 independently re-proved in Lean by Demaine and Langerman in their own reduction; manuscript unrefereed",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://github.com/openai/math/blob/main/preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/paper.pdf",
+   "postcutoff": "https://postcutoff.com/e/2026-10-06-openai-periodic-tiling-conjecture-dimension-three/",
+   "id": "2026-10-06-openai-periodic-tiling-conjecture-dimension-three"
   },
   {
    "date": "2026-10-06",
@@ -1653,6 +1803,21 @@
    "primary_source": "https://arxiv.org/abs/2610.03204",
    "postcutoff": "https://postcutoff.com/e/2026-10-02-epsilon-dvoretzky-conjecture-klartag-moshe/",
    "id": "2026-10-02-epsilon-dvoretzky-conjecture-klartag-moshe"
+  },
+  {
+   "date": "2026-10-02",
+   "problem": "Linnik's constant: the least L with P(a, q) ≪ q^L for the least prime in every reduced residue class mod q",
+   "result": "Claimed L ≤ 3.99 (P(a, q) < q^3.99 for all large q), improving Xylouris's L ≤ 5",
+   "open_since": "1944",
+   "ai_system": "Claude Opus 5.5; GPT-6 Astra; Grok 4.7",
+   "human_role": "Naslund prompted and supervised; the models did the research and wrote the paper; Grok helped with formalization",
+   "verification": "Hexagon preprint; computer-assisted certificates checked by three programs; two components Lean-verified (Palomar), the final bound not formalized",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2610.00018v1",
+   "postcutoff": "https://postcutoff.com/e/2026-10-02-linnik-constant-3-99-naslund-claude-gpt-astra/",
+   "id": "2026-10-02-linnik-constant-3-99-naslund-claude-gpt-astra"
   },
   {
    "date": "2026-10-02",
@@ -2961,6 +3126,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-10-29",
+   "title": "AI-assisted results, 29 Oct 2026 (part 2): Claude 'largely carried out' Lipshitz's Khovanov research, ChatGPT found Soundararajan's proof and wrote Etingof's and Mathew's papers, George Elliott's free-product classification 'carried out using ChatGPT', and a first read of Hexagon's backlog",
+   "postcutoff": "https://postcutoff.com/e/2026-10-29-ai-assisted-results-october-29-listing-2/"
+  },
   {
    "date": "2026-10-29",
    "title": "AI-assisted results in the 29 Oct 2026 sweep: counterexamples to Wilking's 2007 question found by GPT-6 Astra, an LLM-written Plateau paper by De Lellis and Glaudo, explicit Reed–Solomon codes with optimal list size (Guruswami et al.), rank-four quiver mutation decided by GPT Astra, and a dozen named conjectures",
