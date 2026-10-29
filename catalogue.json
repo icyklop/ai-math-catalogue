@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-28",
+ "generated": "2026-10-29",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 169,
+ "count": 172,
  "results": [
   {
    "date": "2026-10-27",
@@ -21,6 +21,21 @@
   },
   {
    "date": "2026-10-27",
+   "problem": "Order of growth of the maximal Banach–Mazur distance R∞(n) from n-dimensional normed spaces to the cube ℓ∞ⁿ (Grünbaum's problem)",
+   "result": "R∞(n) ≥ c·n^{2/3}(log 2n)^{−10}; with the Friedland–Naor–Youssef upper bound, R∞(n) = n^{2/3+o(1)}",
+   "open_since": "1960",
+   "ai_system": "ChatGPT (GPT-6)",
+   "human_role": "Human-led: the author designed the strategy and stated the key proposition; GPT-6 generated its proof, which the author reworked",
+   "verification": "Unrefereed arXiv preprint",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "high",
+   "primary_source": "https://arxiv.org/abs/2610.36917",
+   "postcutoff": "https://postcutoff.com/e/2026-10-27-banach-mazur-distance-cube-sharp-exponent-gpt-6/",
+   "id": "2026-10-27-banach-mazur-distance-cube-sharp-exponent-gpt-6"
+  },
+  {
+   "date": "2026-10-27",
    "problem": "Morgan–Mullen conjecture (1996): existence of a primitive completely normal element in every finite field extension; Hachenberger's lower bound",
    "result": "Claimed full confirmation of Morgan–Mullen (case n > q new, n ≤ q by Garefalakis–Kapetanakis) and of Hachenberger's bound for all (q, n)",
    "open_since": "1996",
@@ -33,6 +48,21 @@
    "primary_source": "https://arxiv.org/abs/2610.36534",
    "postcutoff": "https://postcutoff.com/e/2026-10-27-morgan-mullen-conjecture-claude-lean/",
    "id": "2026-10-27-morgan-mullen-conjecture-claude-lean"
+  },
+  {
+   "date": "2026-10-27",
+   "problem": "Upper bound for the four-colour triangle Ramsey number R(3,3,3,3) = R₄(3)",
+   "result": "R(3,3,3,3) ≤ 61 (previous upper bound 62 from 2004; lower bound 51)",
+   "open_since": "",
+   "ai_system": "GPT-5.6 (Codex); Fable 5 (Claude Code); GPT-6 Pro; GPT-6 Astra (Codex)",
+   "human_role": "Human-led computer-assisted proof; AI coding agents and models contributed reductions, the C case, experiments, formalization and editing",
+   "verification": "Lean 4 formalization of the reductions plus SAT refutations by two independent solvers (the SAT part is outside Lean); unrefereed preprint with a public reproduction package",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "high",
+   "primary_source": "https://arxiv.org/abs/2610.36648",
+   "postcutoff": "https://postcutoff.com/e/2026-10-27-ramsey-r3333-upper-bound-61-ai-lean-sat/",
+   "id": "2026-10-27-ramsey-r3333-upper-bound-61-ai-lean-sat"
   },
   {
    "date": "2026-10-26",
@@ -1128,6 +1158,21 @@
    "primary_source": "https://github.com/openai/math/blob/main/preprints/De-Giorgis-conjecture-in-dimension-eight-September-26-2026/article.pdf",
    "postcutoff": "https://postcutoff.com/e/2026-10-06-openai-de-giorgi-conjecture-dimension-eight/",
    "id": "2026-10-06-openai-de-giorgi-conjecture-dimension-eight"
+  },
+  {
+   "date": "2026-10-06",
+   "problem": "Abundance conjecture (κ = ν; nef lc adjoints are semiample) and the nonvanishing conjecture, open in dimension ≥ 4; also Iitaka's subadditivity conjecture C_{n,m}",
+   "result": "OpenAI claims log abundance for rational-boundary lc pairs and canonical nonvanishing in every dimension in characteristic zero. Liu (human-led, AI-assisted) proves nonvanishing ⇒ abundance for lc pairs",
+   "open_since": "1980s (abundance in its standard form; threefold case finished in 1992)",
+   "ai_system": "OpenAI internal model (math release); Liu: DeepSeek, Fable, GLM, ChatGPT, Danus, Rethlas",
+   "human_role": "OpenAI: autonomous AI output released by OpenAI. Liu: human-led paper written with several AI models and agent systems",
+   "verification": "Unrefereed preprints; no Lean formalization; no public expert assessment as of 29 Oct",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://github.com/openai/math/blob/main/preprints/Log-abundance-in-characteristic-zero-September-24-2026/paper.pdf",
+   "postcutoff": "https://postcutoff.com/e/2026-10-06-openai-log-abundance-nonvanishing-claim/",
+   "id": "2026-10-06-openai-log-abundance-nonvanishing-claim"
   },
   {
    "date": "2026-10-06",
@@ -2541,6 +2586,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-10-29",
+   "title": "AI-assisted results in the 29 Oct 2026 sweep: counterexamples to Wilking's 2007 question found by GPT-6 Astra, an LLM-written Plateau paper by De Lellis and Glaudo, explicit Reed–Solomon codes with optimal list size (Guruswami et al.), rank-four quiver mutation decided by GPT Astra, and a dozen named conjectures",
+   "postcutoff": "https://postcutoff.com/e/2026-10-29-ai-assisted-results-october-29-listing/"
+  },
   {
    "date": "2026-10-28",
    "title": "AI-assisted results in the 28 Oct 2026 sweep: Bialostocki–Lotspeich (1992), part of Gross–Prasad in geometric Langlands, Fuglede in 𝔽₂⁸, a TEMPO structure found by Claude, agent swarms on fractional Chern insulators, and a human digest of GPT-6 Astra's Smale counterexample",
