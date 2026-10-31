@@ -1,9 +1,84 @@
 {
- "generated": "2026-10-30",
+ "generated": "2026-10-31",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 218,
+ "count": 224,
  "results": [
+  {
+   "date": "2026-10-31",
+   "problem": "Serre's cyclicity problem: unconditional positive density of primes p with E(F_p) cyclic",
+   "result": "Claimed positive lower density c_E/(32 log 32) for every E/ℚ without full rational 2-torsion, CM and non-CM alike (known before under GRH, or for CM curves)",
+   "open_since": "1977",
+   "ai_system": "GPT-6; ChatGPT",
+   "human_role": "Human-led with AI writing: Bhargava's handwritten argument; GPT-6 added writing and details and helped with the Lean formalisation; builds on OpenAI's AI-generated analytic estimates",
+   "verification": "Hexagon deposit, not refereed; partial Lean (deduction only); depends on unrefereed AI-era inputs",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2610.00699v1",
+   "postcutoff": "https://postcutoff.com/e/2026-10-31-bhargava-cyclic-reduction-elliptic-curves-positive-proportion-gpt-6/",
+   "id": "2026-10-31-bhargava-cyclic-reduction-elliptic-curves-positive-proportion-gpt-6"
+  },
+  {
+   "date": "2026-10-30",
+   "problem": "Mézard–Parisi formula (2001) for the free energy of diluted spin-glass models, including random K-SAT",
+   "result": "Claimed matching lower bound for diluted p-spin models with even p and random K-sat under symmetry and integrability assumptions, completing the formula (upper bound: Franz–Leone)",
+   "open_since": "2001",
+   "ai_system": "ChatGPT Astra; Claude Fable",
+   "human_role": "AI-found proof directed by the field's main expert: Panchenko asked for a new perturbation in his earlier argument; ChatGPT Astra found the proof; Panchenko rewrote it with ChatGPT Astra and Claude Fable",
+   "verification": "Unrefereed preprint by a leading specialist; independent of OpenAI's own claimed proof (family 221)",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "high",
+   "primary_source": "https://arxiv.org/abs/2610.39545",
+   "postcutoff": "https://postcutoff.com/e/2026-10-30-mezard-parisi-formula-panchenko-proof-found-by-chatgpt-astra/",
+   "id": "2026-10-30-mezard-parisi-formula-panchenko-proof-found-by-chatgpt-astra"
+  },
+  {
+   "date": "2026-10-30",
+   "problem": "Erdős's question: is the number of C₄-free graphs on n vertices 2^{(1+o(1))ex(n,C₄)}?",
+   "result": "Claimed affirmative answer (previous best upper bound 2^{1.0819…n^{3/2}}, Kleitman–Winston 1982)",
+   "open_since": "1982",
+   "ai_system": "GPT-6 Pro; GPT-6.1; Claude Opus 5.5",
+   "human_role": "Human-led: main ideas by the author; GPT-6 Pro helped complete the proofs; GPT-6.1 and Opus 5.5 revised the text",
+   "verification": "Unrefereed single-author preprint",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.39595",
+   "postcutoff": "https://postcutoff.com/e/2026-10-30-number-of-c4-free-graphs-erdos-question-tianchi-yang-gpt-6-pro/",
+   "id": "2026-10-30-number-of-c4-free-graphs-erdos-question-tianchi-yang-gpt-6-pro"
+  },
+  {
+   "date": "2026-10-30",
+   "problem": "Rate-optimality of AFEM with Dörfler marking for bulk parameters θ that are not small",
+   "result": "Claimed rate-optimal convergence for every θ ∈ (0,1) (Poisson problem, conforming Lagrange elements)",
+   "open_since": "2007",
+   "ai_system": "ChatGPT",
+   "human_role": "AI-assisted: an interactive ChatGPT discussion with Storn produced the initial proof framework; the authors verified, corrected, generalised and rewrote it",
+   "verification": "Unrefereed preprint by specialists of the field",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.39719",
+   "postcutoff": "https://postcutoff.com/e/2026-10-30-afem-optimal-convergence-any-bulk-parameter-diening-storn-chatgpt/",
+   "id": "2026-10-30-afem-optimal-convergence-any-bulk-parameter-diening-storn-chatgpt"
+  },
+  {
+   "date": "2026-10-30",
+   "problem": "Maximal dimension of finite-volume (and of entirely ideal) right-angled hyperbolic polytopes",
+   "result": "Claimed sharp bounds: 8 for finite volume (was ≤ 12), 4 for entirely ideal (was ≤ 6)",
+   "open_since": "",
+   "ai_system": "GPT-6 Astra; GPT-6.1 Sol",
+   "human_role": "AI-assisted: models investigated proof ideas, helped strengthen the results and wrote and audited the Python and Lean code; the author wrote the paper",
+   "verification": "Unrefereed preprint; Lean checks the logical deductions with geometric inputs as premises",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.38900",
+   "postcutoff": "https://postcutoff.com/e/2026-10-30-right-angled-hyperbolic-polytopes-dimension-bounds-kolpakov-gpt-6-astra/",
+   "id": "2026-10-30-right-angled-hyperbolic-polytopes-dimension-bounds-kolpakov-gpt-6-astra"
+  },
   {
    "date": "2026-10-29",
    "problem": "Optimal constant in the i.i.d. Berry–Esseen inequality (Esseen 1956 lower bound; sharpness conjecture attributed to Zolotarev, 1966–67)",
@@ -1608,6 +1683,21 @@
    "primary_source": "https://arxiv.org/abs/2610.07537",
    "postcutoff": "https://postcutoff.com/e/2026-10-06-gch-above-strongly-compact-woodin-question/",
    "id": "2026-10-06-gch-above-strongly-compact-woodin-question"
+  },
+  {
+   "date": "2026-10-06",
+   "problem": "Generalized Lax conjecture (every hyperbolicity cone is spectrahedral) and the projected Lax conjecture (every hyperbolicity cone is a spectrahedral shadow)",
+   "result": "Claimed: true for strictly hyperbolic polynomials (Kummer–Netzer, AI-found); false in general, even for shadows (OpenAI family 095)",
+   "open_since": "",
+   "ai_system": "unnamed AI system (Kummer–Netzer); OpenAI internal model",
+   "human_role": "Kummer–Netzer: AI produced the proof, humans posed the question, suggested approaches, checked and edited. OpenAI: autonomous model output, Lean statement",
+   "verification": "Unrefereed; OpenAI's main statement in Lean; an expert exposition accepts the counterexample",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2609.24542",
+   "postcutoff": "https://postcutoff.com/e/2026-10-06-generalized-lax-conjecture-openai-counterexample-kummer-netzer-generic-case/",
+   "id": "2026-10-06-generalized-lax-conjecture-openai-counterexample-kummer-netzer-generic-case"
   },
   {
    "date": "2026-10-06",
@@ -3276,6 +3366,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-10-31",
+   "title": "AI-assisted results in the 31 Oct 2026 sweep: Panchenko's Mézard–Parisi proof, C₄-free graphs, right-angled polytopes, Bhargava's cyclicity theorem, the Lax conjecture and AFEM, plus R(5,6) ≤ 84, Halin–Diestel questions, deterministic RWRE velocity and 48 Hexagon works",
+   "postcutoff": "https://postcutoff.com/e/2026-10-31-ai-assisted-results-october-31-listing/"
+  },
   {
    "date": "2026-10-30",
    "title": "AI-assisted results in the 30 Oct 2026 sweep: Murty–Simon, the spectral isometry conjecture, online Steiner forest, Laczkovich's Lipschitz problem, pure semisimplicity and Petty in dimension five, plus Borsuk b₄ ≤ 7, Alon–Seymour–Thomas separators, Fiedorowicz, Kroó, Kawatani–Okawa and Borisov–Nuer",
