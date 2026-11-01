@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31",
+ "generated": "2026-11-01",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
  "count": 224,
@@ -3366,6 +3366,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-11-01",
+   "title": "AI-assisted results in the 1 Nov 2026 sweep: Olson constant asymptotics, a fractional Brownian motion conjecture, Duke–Erdős–Rödl, the Bérczi et al. submodular question, and the Poisson conjecture in Lean",
+   "postcutoff": "https://postcutoff.com/e/2026-11-01-ai-assisted-results-november-1-listing/"
+  },
   {
    "date": "2026-10-31",
    "title": "AI-assisted results in the 31 Oct 2026 sweep: Panchenko's Mézard–Parisi proof, C₄-free graphs, right-angled polytopes, Bhargava's cyclicity theorem, the Lax conjecture and AFEM, plus R(5,6) ≤ 84, Halin–Diestel questions, deterministic RWRE velocity and 48 Hexagon works",

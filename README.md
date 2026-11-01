@@ -2,7 +2,7 @@
 
 Mathematical results where an AI system (language models, agents, provers such as AlphaProof, AlphaEvolve, Aristotle or AxiomProver) played a disclosed role, from the [Post-Cutoff](https://postcutoff.com/) timeline. One row per result, with what was claimed, which system was used, what the humans did, and how far the result has been checked.
 
-**224 results** (55 confirmed, 167 pending, 1 disputed, 1 retracted; 117 with a Lean formalization) and 22 batch catalogues of smaller results. Generated 2026-10-31 from the timeline's data; it is regenerated with every update.
+**224 results** (55 confirmed, 167 pending, 1 disputed, 1 retracted; 117 with a Lean formalization) and 23 batch catalogues of smaller results. Generated 2026-11-01 from the timeline's data; it is regenerated with every update.
 
 **How to read the status.** *confirmed*: refereed; a complete Lean proof of an independently written or Mathlib-only statement; re-checked or re-proved by named independent experts; or an explicit finite construction or counterexample anyone can check by computation. *pending*: a preprint or unrefereed record. *disputed* / *retracted*: as stated. Several pending items are self-published claims by authors outside the field; their verification column says "unverified claim". Each row links to an entry on postcutoff.com with the sources, the authors' AI-use statement quoted where one exists, and a change log.
 
@@ -248,6 +248,7 @@ Files: [`catalogue.csv`](catalogue.csv), [`catalogue.json`](catalogue.json). Lic
 
 ## Batch catalogues of smaller results
 
+- 2026-11-01: [AI-assisted results in the 1 Nov 2026 sweep: Olson constant asymptotics, a fractional Brownian motion conjecture, Duke–Erdős–Rödl, the Bérczi et al. submodular question, and the Poisson conjecture in Lean](https://postcutoff.com/e/2026-11-01-ai-assisted-results-november-1-listing/)
 - 2026-10-31: [AI-assisted results in the 31 Oct 2026 sweep: Panchenko's Mézard–Parisi proof, C₄-free graphs, right-angled polytopes, Bhargava's cyclicity theorem, the Lax conjecture and AFEM, plus R(5,6) ≤ 84, Halin–Diestel questions, deterministic RWRE velocity and 48 Hexagon works](https://postcutoff.com/e/2026-10-31-ai-assisted-results-october-31-listing/)
 - 2026-10-30: [AI-assisted results in the 30 Oct 2026 sweep: Murty–Simon, the spectral isometry conjecture, online Steiner forest, Laczkovich's Lipschitz problem, pure semisimplicity and Petty in dimension five, plus Borsuk b₄ ≤ 7, Alon–Seymour–Thomas separators, Fiedorowicz, Kroó, Kawatani–Okawa and Borisov–Nuer](https://postcutoff.com/e/2026-10-30-ai-assisted-results-october-30-listing/)
 - 2026-10-29: [AI-assisted results, 29 Oct 2026 (part 2): Claude 'largely carried out' Lipshitz's Khovanov research, ChatGPT found Soundararajan's proof and wrote Etingof's and Mathew's papers, George Elliott's free-product classification 'carried out using ChatGPT', and a first read of Hexagon's backlog](https://postcutoff.com/e/2026-10-29-ai-assisted-results-october-29-listing-2/)
