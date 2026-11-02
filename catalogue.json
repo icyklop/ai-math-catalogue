@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-01",
+ "generated": "2026-11-02",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 224,
+ "count": 226,
  "results": [
   {
    "date": "2026-10-31",
@@ -18,6 +18,21 @@
    "primary_source": "https://hexagonmath.org/abs/2610.00699v1",
    "postcutoff": "https://postcutoff.com/e/2026-10-31-bhargava-cyclic-reduction-elliptic-curves-positive-proportion-gpt-6/",
    "id": "2026-10-31-bhargava-cyclic-reduction-elliptic-curves-positive-proportion-gpt-6"
+  },
+  {
+   "date": "2026-10-30",
+   "problem": "Alon–Krivelevich conjecture: bipartite graphs of maximum degree Δ are O(log Δ)-choosable",
+   "result": "Disproved: bipartite graphs with ch(G) ≥ (1/32 − o(1))(ln Δ)²/(ln ln Δ)³",
+   "open_since": "1998",
+   "ai_system": "GPT-6 Astra; xean; Claude Opus 5.5",
+   "human_role": "AI-found: GPT-6 Astra found the counterexample and proof; authors verified it; Claude rewrote the text",
+   "verification": "Preprint, verified by the authors",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.42094",
+   "postcutoff": "https://postcutoff.com/e/2026-10-30-alon-krivelevich-conjecture-disproved-gpt-6-astra-xean/",
+   "id": "2026-10-30-alon-krivelevich-conjecture-disproved-gpt-6-astra-xean"
   },
   {
    "date": "2026-10-30",
@@ -2330,6 +2345,21 @@
    "id": "2026-09-21-courtade-kumar-conjecture-proved"
   },
   {
+   "date": "2026-09-20",
+   "problem": "Kung–Traub conjecture on the maximal order of multipoint iterations without memory",
+   "result": "Local order ≤ 2^(n−1) for any memoryless method with n evaluations per step, for real and complex scalar evaluations; sharper bound for grouped evaluations",
+   "open_since": "1974",
+   "ai_system": "ChatGPT 6; ChatGPT 5.6",
+   "human_role": "Human-led: proofs by the author; ChatGPT 6 assisted the Lean formalization and ChatGPT 5.6/6 were used to discuss and check arguments",
+   "verification": "Preprint; Lean formalization checked with Lean 4 Comparator (author's statement)",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2610.40660",
+   "postcutoff": "https://postcutoff.com/e/2026-09-20-kung-traub-conjecture-proved-colbrook-lean-chatgpt/",
+   "id": "2026-09-20-kung-traub-conjecture-proved-colbrook-lean-chatgpt"
+  },
+  {
    "date": "2026-09-17",
    "problem": "Irrationality of ζ(5) = Σ 1/n⁵ (open since Apéry's 1978 proof for ζ(3); Euler-era question)",
    "result": "ζ(5) is irrational, with integer polynomials Q_n of degree 37n satisfying 0 < Q_n(ζ(5)) < exp(−139n²/5), and irrationality measure at most 260.",
@@ -3366,6 +3396,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-11-02",
+   "title": "AI-assisted results in the 2 Nov 2026 sweep: Haagerup's 1985 problem, Petz's 1994 conjecture, Kamnitzer's MV = theta conjecture, Morel purity counterexamples, claw-free perfect graphs, plus 52 Hexagon works",
+   "postcutoff": "https://postcutoff.com/e/2026-11-02-ai-assisted-results-november-2-listing/"
+  },
   {
    "date": "2026-11-01",
    "title": "AI-assisted results in the 1 Nov 2026 sweep: Olson constant asymptotics, a fractional Brownian motion conjecture, Duke–Erdős–Rödl, the Bérczi et al. submodular question, and the Poisson conjecture in Lean",
