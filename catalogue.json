@@ -1,9 +1,54 @@
 {
- "generated": "2026-11-02",
+ "generated": "2026-11-03",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 226,
+ "count": 229,
  "results": [
+  {
+   "date": "2026-11-03",
+   "problem": "Alon–Seymour–Thomas conjecture: K_h-minor-free graphs have balanced separators of size O(h√n)",
+   "result": "Claimed proved twice: 21h√n (Lin) and O(h√n) with Lean formalization (Conroy–Le–Spalding-Jamieson)",
+   "open_since": "1990",
+   "ai_system": "GPT-6 Astra; Claude Opus 5.5; ChatGPT 6 Pro; GPT-6.1 Sol",
+   "human_role": "Conroy et al.: AI-originated ideas, humans verified and rewrote; Lin: human-guided AI-assisted proof checked by hand",
+   "verification": "Preprints; Lean formalization for 2611.00663",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.00663",
+   "postcutoff": "https://postcutoff.com/e/2026-11-03-alon-seymour-thomas-separator-conjecture-gpt-6-astra-two-proofs/",
+   "id": "2026-11-03-alon-seymour-thomas-separator-conjecture-gpt-6-astra-two-proofs"
+  },
+  {
+   "date": "2026-11-03",
+   "problem": "Dimension of the SO(3) instanton homology J♯ of the dodecahedron web: 60 (number of Tait colourings) or 64",
+   "result": "Proposed proof that the dimension is 64",
+   "open_since": "2015",
+   "ai_system": "ChatGPT Astra 6; ChatGPT; Claude",
+   "human_role": "Leading gauge theorists posed the question and supplied earlier AI-computed data; the text is primarily AI-generated and only partly checked",
+   "verification": "Unrefereed Hexagon deposit; partly human-checked",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2611.00021",
+   "postcutoff": "https://postcutoff.com/e/2026-11-03-kronheimer-mrowka-dodecahedron-web-instanton-homology-64-chatgpt/",
+   "id": "2026-11-03-kronheimer-mrowka-dodecahedron-web-instanton-homology-64-chatgpt"
+  },
+  {
+   "date": "2026-11-03",
+   "problem": "Covering radius of RM(1,9) (maximum nonlinearity of 9-variable Boolean functions)",
+   "result": "ρ(1,9) = 242",
+   "open_since": "",
+   "ai_system": "ChatGPT",
+   "human_role": "Human-led computer-assisted proofs; ChatGPT assisted one of the three",
+   "verification": "Three independent preprints, computer-assisted",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.00890",
+   "postcutoff": "https://postcutoff.com/e/2026-11-03-reed-muller-rm19-covering-radius-242-three-proofs/",
+   "id": "2026-11-03-reed-muller-rm19-covering-radius-242-three-proofs"
+  },
   {
    "date": "2026-10-31",
    "problem": "Serre's cyclicity problem: unconditional positive density of primes p with E(F_p) cyclic",
@@ -270,7 +315,7 @@
    "status": "pending",
    "lean": "yes",
    "confidence": "medium",
-   "primary_source": "https://cfsg.axiommath.ai/",
+   "primary_source": "https://github.com/AxiomMath/CFSGCorollary",
    "postcutoff": "https://postcutoff.com/e/2026-10-27-axiom-cfsg-classification-finite-simple-groups-lean/",
    "id": "2026-10-27-axiom-cfsg-classification-finite-simple-groups-lean"
   },
@@ -675,7 +720,7 @@
    "status": "pending",
    "lean": "yes",
    "confidence": "medium",
-   "primary_source": "https://arxiv.org/abs/2610.24887",
+   "primary_source": "https://arxiv.org/abs/2611.01963",
    "postcutoff": "https://postcutoff.com/e/2026-10-17-erdos-hajnal-all-paths-nguyen-astra-deepmind/",
    "id": "2026-10-17-erdos-hajnal-all-paths-nguyen-astra-deepmind"
   },
@@ -3396,6 +3441,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-11-03",
+   "title": "AI-assisted results in the 3 Nov 2026 sweep: a second Erdős–Hajnal proof for paths, D₄ as optimal 4D lattice quantizer, the Díaz–Park sharpness conjecture in Lean and Rocq, unitaryQIP = unitaryPSPACE, no bound helium dianion, R(k) ≤ 3.7698^k, plus 45 Hexagon works",
+   "postcutoff": "https://postcutoff.com/e/2026-11-03-ai-assisted-results-november-3-listing/"
+  },
   {
    "date": "2026-11-02",
    "title": "AI-assisted results in the 2 Nov 2026 sweep: Haagerup's 1985 problem, Petz's 1994 conjecture, Kamnitzer's MV = theta conjecture, Morel purity counterexamples, claw-free perfect graphs, plus 52 Hexagon works",
