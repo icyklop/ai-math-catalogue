@@ -2,7 +2,7 @@
 
 Mathematical results where an AI system (language models, agents, provers such as AlphaProof, AlphaEvolve, Aristotle or AxiomProver) played a disclosed role, from the [Post-Cutoff](https://postcutoff.com/) timeline. One row per result, with what was claimed, which system was used, what the humans did, and how far the result has been checked.
 
-**229 results** (55 confirmed, 172 pending, 1 disputed, 1 retracted; 119 with a Lean formalization) and 25 batch catalogues of smaller results. Generated 2026-11-03 from the timeline's data; it is regenerated with every update.
+**230 results** (55 confirmed, 173 pending, 1 disputed, 1 retracted; 119 with a Lean formalization) and 26 batch catalogues of smaller results. Generated 2026-11-04 from the timeline's data; it is regenerated with every update.
 
 **How to read the status.** *confirmed*: refereed; a complete Lean proof of an independently written or Mathlib-only statement; re-checked or re-proved by named independent experts; or an explicit finite construction or counterexample anyone can check by computation. *pending*: a preprint or unrefereed record. *disputed* / *retracted*: as stated. Several pending items are self-published claims by authors outside the field; their verification column says "unverified claim". Each row links to an entry on postcutoff.com with the sources, the authors' AI-use statement quoted where one exists, and a change log.
 
@@ -14,6 +14,7 @@ Files: [`catalogue.csv`](catalogue.csv), [`catalogue.json`](catalogue.json). Lic
 
 | Date | Problem | Result | AI system | Status | Lean | Details |
 |---|---|---|---|---|---|---|
+| 2026-11-04 | Magic number conjecture for amplituhedron tilings (strong form, [GL] Conjecture 3.9) | Counterexample: a 489-tile tiling of A(11,3,4) (magic number 490) | ChatGPT | pending | no | [entry](https://postcutoff.com/e/2026-11-04-amplituhedron-magic-number-conjecture-counterexample-chatgpt/) · [source](https://arxiv.org/abs/2611.05216) |
 | 2026-11-03 | Alon–Seymour–Thomas conjecture: K_h-minor-free graphs have balanced separators of size… | Claimed proved twice: 21h√n (Lin) and O(h√n) with Lean formalization (Conroy–Le–Spalding-Jamieson) | GPT-6 Astra; Claude Opus 5.5; ChatGPT 6 Pro; GPT-6.1 Sol | pending | yes | [entry](https://postcutoff.com/e/2026-11-03-alon-seymour-thomas-separator-conjecture-gpt-6-astra-two-proofs/) · [source](https://arxiv.org/abs/2611.00663) |
 | 2026-11-03 | Dimension of the SO(3) instanton homology J♯ of the dodecahedron web: 60 (number of Tait… | Proposed proof that the dimension is 64 | ChatGPT Astra 6; ChatGPT; Claude | pending | no | [entry](https://postcutoff.com/e/2026-11-03-kronheimer-mrowka-dodecahedron-web-instanton-homology-64-chatgpt/) · [source](https://hexagonmath.org/abs/2611.00021) |
 | 2026-11-03 | Covering radius of RM(1,9) (maximum nonlinearity of 9-variable Boolean functions) | ρ(1,9) = 242 | ChatGPT | pending | no | [entry](https://postcutoff.com/e/2026-11-03-reed-muller-rm19-covering-radius-242-three-proofs/) · [source](https://arxiv.org/abs/2611.00890) |
@@ -253,6 +254,7 @@ Files: [`catalogue.csv`](catalogue.csv), [`catalogue.json`](catalogue.json). Lic
 
 ## Batch catalogues of smaller results
 
+- 2026-11-04: [AI-assisted results in the 4 Nov 2026 sweep: kissing numbers in dims 32–39 with Claude Code, a GPT-6 Astra surface group without Cannon–Thurston map, Landsberg ⇒ Berwald for real-analytic metrics, the monochromatic three-arm exponent, plus 33 Hexagon works](https://postcutoff.com/e/2026-11-04-ai-assisted-results-november-4-listing/)
 - 2026-11-03: [AI-assisted results in the 3 Nov 2026 sweep: a second Erdős–Hajnal proof for paths, D₄ as optimal 4D lattice quantizer, the Díaz–Park sharpness conjecture in Lean and Rocq, unitaryQIP = unitaryPSPACE, no bound helium dianion, R(k) ≤ 3.7698^k, plus 45 Hexagon works](https://postcutoff.com/e/2026-11-03-ai-assisted-results-november-3-listing/)
 - 2026-11-02: [AI-assisted results in the 2 Nov 2026 sweep: Haagerup's 1985 problem, Petz's 1994 conjecture, Kamnitzer's MV = theta conjecture, Morel purity counterexamples, claw-free perfect graphs, plus 52 Hexagon works](https://postcutoff.com/e/2026-11-02-ai-assisted-results-november-2-listing/)
 - 2026-11-01: [AI-assisted results in the 1 Nov 2026 sweep: Olson constant asymptotics, a fractional Brownian motion conjecture, Duke–Erdős–Rödl, the Bérczi et al. submodular question, and the Poisson conjecture in Lean](https://postcutoff.com/e/2026-11-01-ai-assisted-results-november-1-listing/)

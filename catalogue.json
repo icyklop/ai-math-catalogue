@@ -1,9 +1,24 @@
 {
- "generated": "2026-11-03",
+ "generated": "2026-11-04",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 229,
+ "count": 230,
  "results": [
+  {
+   "date": "2026-11-04",
+   "problem": "Magic number conjecture for amplituhedron tilings (strong form, [GL] Conjecture 3.9)",
+   "result": "Counterexample: a 489-tile tiling of A(11,3,4) (magic number 490)",
+   "open_since": "",
+   "ai_system": "ChatGPT",
+   "human_role": "ChatGPT found the first counterexamples and wrote appendix data; authors directed the search and wrote the paper",
+   "verification": "Unrefereed preprint",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.05216",
+   "postcutoff": "https://postcutoff.com/e/2026-11-04-amplituhedron-magic-number-conjecture-counterexample-chatgpt/",
+   "id": "2026-11-04-amplituhedron-magic-number-conjecture-counterexample-chatgpt"
+  },
   {
    "date": "2026-11-03",
    "problem": "Alon–Seymour–Thomas conjecture: K_h-minor-free graphs have balanced separators of size O(h√n)",
@@ -3441,6 +3456,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-11-04",
+   "title": "AI-assisted results in the 4 Nov 2026 sweep: kissing numbers in dims 32–39 with Claude Code, a GPT-6 Astra surface group without Cannon–Thurston map, Landsberg ⇒ Berwald for real-analytic metrics, the monochromatic three-arm exponent, plus 33 Hexagon works",
+   "postcutoff": "https://postcutoff.com/e/2026-11-04-ai-assisted-results-november-4-listing/"
+  },
   {
    "date": "2026-11-03",
    "title": "AI-assisted results in the 3 Nov 2026 sweep: a second Erdős–Hajnal proof for paths, D₄ as optimal 4D lattice quantizer, the Díaz–Park sharpness conjecture in Lean and Rocq, unitaryQIP = unitaryPSPACE, no bound helium dianion, R(k) ≤ 3.7698^k, plus 45 Hexagon works",
