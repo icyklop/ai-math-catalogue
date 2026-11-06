@@ -1,9 +1,54 @@
 {
- "generated": "2026-11-05",
+ "generated": "2026-11-06",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 232,
+ "count": 235,
  "results": [
+  {
+   "date": "2026-11-06",
+   "problem": "Tusnády's problem: combinatorial discrepancy of points with respect to axis-parallel boxes in R^d",
+   "result": "Claimed Θ_d((log N)^(d−1/2)) in every fixed dimension d ≥ 2 (two independent proofs)",
+   "open_since": "",
+   "ai_system": "Claude; Codex; ChatGPT",
+   "human_role": "AI-assisted: authors credit the tools with proof development and checking (Wengiel) and with generating ideas (Lei)",
+   "verification": "Two unrefereed arXiv preprints; no Lean formalization stated",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.06998",
+   "postcutoff": "https://postcutoff.com/e/2026-11-06-tusnady-problem-settled-two-ai-assisted-preprints/",
+   "id": "2026-11-06-tusnady-problem-settled-two-ai-assisted-preprints"
+  },
+  {
+   "date": "2026-11-05",
+   "problem": "Rigorous critical storage capacity of the Hopfield associative-memory model at zero temperature",
+   "result": "Claimed bracket αc ∈ [0.138198129, 0.13820106]",
+   "open_since": "1985",
+   "ai_system": "Claude Opus 5.5; GPT-6.1 Sol",
+   "human_role": "Mainly AI-generated; human contributor checked parts",
+   "verification": "Hexagon deposit, unrefereed, AI cross-review only",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2611.00105",
+   "postcutoff": "https://postcutoff.com/e/2026-11-05-hopfield-critical-capacity-claude-opus-5-5/",
+   "id": "2026-11-05-hopfield-critical-capacity-claude-opus-5-5"
+  },
+  {
+   "date": "2026-11-05",
+   "problem": "Singmaster's conjecture on multiplicities of binomial coefficients",
+   "result": "Claimed unconditional bound N(t) = O((log t)^(1/2+o(1)))",
+   "open_since": "1971",
+   "ai_system": "Claude Opus 5.5",
+   "human_role": "AI-generated proofs, formalization and most text; human contributor checked some parts",
+   "verification": "Hexagon deposit with Lean 4 formalization (per provenance); unrefereed",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2611.00106",
+   "postcutoff": "https://postcutoff.com/e/2026-11-05-singmaster-bound-claude-opus-5-5-whitmore/",
+   "id": "2026-11-05-singmaster-bound-claude-opus-5-5-whitmore"
+  },
   {
    "date": "2026-11-04",
    "problem": "Torsion groups of elliptic curves over number fields of fixed degree d = 6, 7, 8, 9",
@@ -15,7 +60,7 @@
    "status": "pending",
    "lean": "no",
    "confidence": "medium",
-   "primary_source": "https://hexagonmath.org/abs/2611.00073",
+   "primary_source": "https://hexagonmath.org/abs/2611.00120",
    "postcutoff": "https://postcutoff.com/e/2026-11-04-elliptic-curve-torsion-degrees-6-9-gpt-6-1-sol-najman/",
    "id": "2026-11-04-elliptic-curve-torsion-degrees-6-9-gpt-6-1-sol-najman"
   },
@@ -3486,6 +3531,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-11-06",
+   "title": "AI-assisted results in the 6 Nov 2026 sweep: generalized Lax conjecture for mixed determinants, L'vov–Kaplansky in degree four, unrecognizability of #²(S²×S²) by ChatGPT's agent, second Hamilton cycles from r ≥ 17, plus 26 Hexagon works",
+   "postcutoff": "https://postcutoff.com/e/2026-11-06-ai-assisted-results-november-6-listing/"
+  },
   {
    "date": "2026-11-05",
    "title": "AI-assisted results in the 5 Nov 2026 sweep: dual Banach spaces with AP but without BAP, fault-tolerant connectivity oracles from GPT-6 Astra ideas, Borodin–Kostochka from degree 750, Turán's power sums, plus 44 Hexagon works",
