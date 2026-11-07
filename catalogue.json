@@ -1,9 +1,39 @@
 {
- "generated": "2026-11-06",
+ "generated": "2026-11-07",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 235,
+ "count": 238,
  "results": [
+  {
+   "date": "2026-11-06",
+   "problem": "Weil conjectures (Weil 1949; Dwork 1960, Grothendieck 1960s, Deligne 1974): machine-checked proof",
+   "result": "Claimed sorry-free Lean 4 proof of rationality, functional equation, Riemann hypothesis and Betti-number statement for smooth projective varieties over finite fields",
+   "open_since": "1949",
+   "ai_system": "Axiom agents",
+   "human_role": "AI agents wrote the library on top of Axiom's Stacks formalization; no human code review yet",
+   "verification": "Lean kernel-checked per the repository; not independently rebuilt or reviewed",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://github.com/AxiomMath/Weil",
+   "postcutoff": "https://postcutoff.com/e/2026-11-06-axiom-weil-conjectures-lean-formalization/",
+   "id": "2026-11-06-axiom-weil-conjectures-lean-formalization"
+  },
+  {
+   "date": "2026-11-06",
+   "problem": "Uniqueness of Leray–Hopf weak solutions of the unforced 3D incompressible Navier–Stokes equations (Leray 1934; Jia–Šverák programme 2014–15)",
+   "result": "Claimed continuum of distinct suitable Leray–Hopf solutions from one compactly supported axisymmetric datum in L^{3,∞}, without force",
+   "open_since": "1934",
+   "ai_system": "Claude Opus; Codex",
+   "human_role": "AI-generated text and proofs; authors understood the broad steps of the construction",
+   "verification": "Unrefereed Hexagon deposit; Lean formalization announced, not yet public",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2611.00143",
+   "postcutoff": "https://postcutoff.com/e/2026-11-06-navier-stokes-unforced-leray-hopf-nonuniqueness-buckmaster-coiculescu-li/",
+   "id": "2026-11-06-navier-stokes-unforced-leray-hopf-nonuniqueness-buckmaster-coiculescu-li"
+  },
   {
    "date": "2026-11-06",
    "problem": "Tusnády's problem: combinatorial discrepancy of points with respect to axis-parallel boxes in R^d",
@@ -48,6 +78,21 @@
    "primary_source": "https://hexagonmath.org/abs/2611.00106",
    "postcutoff": "https://postcutoff.com/e/2026-11-05-singmaster-bound-claude-opus-5-5-whitmore/",
    "id": "2026-11-05-singmaster-bound-claude-opus-5-5-whitmore"
+  },
+  {
+   "date": "2026-11-04",
+   "problem": "Formalizing the Stacks Project (de Jong et al.) in Lean",
+   "result": "Claimed Lean 4 formalization of every formalizable Stacks tag, in human-reviewed and agent-written tiers",
+   "open_since": "",
+   "ai_system": "Axiom agents",
+   "human_role": "AI agents wrote StacksFrontier; humans reviewed StacksCore",
+   "verification": "Lean kernel-checked per the repository; agent tier not human-reviewed",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://github.com/AxiomMath/Stacks",
+   "postcutoff": "https://postcutoff.com/e/2026-11-04-axiom-stacks-project-lean-formalization/",
+   "id": "2026-11-04-axiom-stacks-project-lean-formalization"
   },
   {
    "date": "2026-11-04",
@@ -3531,6 +3576,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-11-07",
+   "title": "AI-assisted results in the 7 Nov sweep: Whiteley's vertex-splitting conjecture by ChatGPT 6.1 Sol, single-exponential Minimum Bisection, isometric embedding in n(n+1)/2+28 dimensions, Armstrong–Vicol's Obukhov–Corrsin regularization, plus 35 Hexagon works",
+   "postcutoff": "https://postcutoff.com/e/2026-11-07-ai-assisted-results-november-7-listing/"
+  },
   {
    "date": "2026-11-06",
    "title": "AI-assisted results in the 6 Nov 2026 sweep: generalized Lax conjecture for mixed determinants, L'vov–Kaplansky in degree four, unrecognizability of #²(S²×S²) by ChatGPT's agent, second Hamilton cycles from r ≥ 17, plus 26 Hexagon works",
