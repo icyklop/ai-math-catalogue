@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-07",
+ "generated": "2026-11-08",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 238,
+ "count": 240,
  "results": [
   {
    "date": "2026-11-06",
@@ -63,6 +63,21 @@
    "primary_source": "https://hexagonmath.org/abs/2611.00105",
    "postcutoff": "https://postcutoff.com/e/2026-11-05-hopfield-critical-capacity-claude-opus-5-5/",
    "id": "2026-11-05-hopfield-critical-capacity-claude-opus-5-5"
+  },
+  {
+   "date": "2026-11-05",
+   "problem": "Pach–Shahrokhi–Szegedy conjecture: k-quasiplanar graphs have O_k(n) edges",
+   "result": "Proof produced by ChatGPT-6; simplified self-contained proof by Pach, Tardos and Zeng",
+   "open_since": "1996",
+   "ai_system": "ChatGPT-6",
+   "human_role": "AI produced the proof (relying on Beeker–Lazarovich); human experts rewrote and simplified it",
+   "verification": "Expert-checked preprint (by the conjecture's co-author); not refereed",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.07314",
+   "postcutoff": "https://postcutoff.com/e/2026-11-05-quasiplanar-graphs-linear-edges-chatgpt-6-pach-tardos-zeng/",
+   "id": "2026-11-05-quasiplanar-graphs-linear-edges-chatgpt-6-pach-tardos-zeng"
   },
   {
    "date": "2026-11-05",
@@ -168,6 +183,21 @@
    "primary_source": "https://hexagonmath.org/abs/2611.00021",
    "postcutoff": "https://postcutoff.com/e/2026-11-03-kronheimer-mrowka-dodecahedron-web-instanton-homology-64-chatgpt/",
    "id": "2026-11-03-kronheimer-mrowka-dodecahedron-web-instanton-homology-64-chatgpt"
+  },
+  {
+   "date": "2026-11-03",
+   "problem": "D-equivalence conjecture (birational Calabi–Yau/hyperkähler varieties are derived equivalent), generalized Kummer type",
+   "result": "Claimed proof for generalized Kummer type; with prior work, all known deformation types",
+   "open_since": "",
+   "ai_system": "ChatGPT 6.0",
+   "human_role": "Human-led: authors' idea, ChatGPT helped realise the kernel construction; authors verified",
+   "verification": "Preprint",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.04118",
+   "postcutoff": "https://postcutoff.com/e/2026-11-03-d-equivalence-generalized-kummer-chatgpt-6/",
+   "id": "2026-11-03-d-equivalence-generalized-kummer-chatgpt-6"
   },
   {
    "date": "2026-11-03",
@@ -3576,6 +3606,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-11-08",
+   "title": "AI-assisted results in the 8 Nov sweep: GPT-6-Pro claims on Lusztig positivity (multiplication) and Foregger's permanent conjecture, Claude's Lean proof of Gasull's periodicity problem at every order, a second MUB-6 proof, a fourth Courtade–Kumar proof, plus 20 Hexagon works",
+   "postcutoff": "https://postcutoff.com/e/2026-11-08-ai-assisted-results-november-8-listing/"
+  },
   {
    "date": "2026-11-07",
    "title": "AI-assisted results in the 7 Nov sweep: Whiteley's vertex-splitting conjecture by ChatGPT 6.1 Sol, single-exponential Minimum Bisection, isometric embedding in n(n+1)/2+28 dimensions, Armstrong–Vicol's Obukhov–Corrsin regularization, plus 35 Hexagon works",
