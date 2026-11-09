@@ -2,7 +2,7 @@
 
 Mathematical results where an AI system (language models, agents, provers such as AlphaProof, AlphaEvolve, Aristotle or AxiomProver) played a disclosed role, from the [Post-Cutoff](https://postcutoff.com/) timeline. One row per result, with what was claimed, which system was used, what the humans did, and how far the result has been checked.
 
-**240 results** (55 confirmed, 183 pending, 1 disputed, 1 retracted; 123 with a Lean formalization) and 30 batch catalogues of smaller results. Generated 2026-11-08 from the timeline's data; it is regenerated with every update.
+**241 results** (55 confirmed, 184 pending, 1 disputed, 1 retracted; 123 with a Lean formalization) and 31 batch catalogues of smaller results. Generated 2026-11-09 from the timeline's data; it is regenerated with every update.
 
 **How to read the status.** *confirmed*: refereed; a complete Lean proof of an independently written or Mathlib-only statement; re-checked or re-proved by named independent experts; or an explicit finite construction or counterexample anyone can check by computation. *pending*: a preprint or unrefereed record. *disputed* / *retracted*: as stated. Several pending items are self-published claims by authors outside the field; their verification column says "unverified claim". Each row links to an entry on postcutoff.com with the sources, the authors' AI-use statement quoted where one exists, and a change log.
 
@@ -14,6 +14,7 @@ Files: [`catalogue.csv`](catalogue.csv), [`catalogue.json`](catalogue.json). Lic
 
 | Date | Problem | Result | AI system | Status | Lean | Details |
 |---|---|---|---|---|---|---|
+| 2026-11-09 | Nill's conjecture: a d-dimensional reflexive polytope has at most 6^{d/2} vertices | False for every d ≥ 8; the number of vertices can be doubly exponential in d | GPT-6.1 Sol | pending | no | [entry](https://postcutoff.com/e/2026-11-09-nill-reflexive-polytopes-conjecture-disproved-gpt-6-1-sol/) · [source](https://arxiv.org/abs/2611.08819) |
 | 2026-11-06 | Weil conjectures (Weil 1949; Dwork 1960, Grothendieck 1960s, Deligne 1974):… | Claimed sorry-free Lean 4 proof of rationality, functional equation, Riemann hypothesis and Betti-number statement for smooth projective varieties over finite… | Axiom agents | pending | yes | [entry](https://postcutoff.com/e/2026-11-06-axiom-weil-conjectures-lean-formalization/) · [source](https://github.com/AxiomMath/Weil) |
 | 2026-11-06 | Uniqueness of Leray–Hopf weak solutions of the unforced 3D incompressible Navier–Stokes… | Claimed continuum of distinct suitable Leray–Hopf solutions from one compactly supported axisymmetric datum in L^{3,∞}, without force | Claude Opus; Codex | pending | yes | [entry](https://postcutoff.com/e/2026-11-06-navier-stokes-unforced-leray-hopf-nonuniqueness-buckmaster-coiculescu-li/) · [source](https://hexagonmath.org/abs/2611.00143) |
 | 2026-11-06 | Tusnády's problem: combinatorial discrepancy of points with respect to axis-parallel… | Claimed Θ_d((log N)^(d−1/2)) in every fixed dimension d ≥ 2 (two independent proofs) | Claude; Codex; ChatGPT | pending | no | [entry](https://postcutoff.com/e/2026-11-06-tusnady-problem-settled-two-ai-assisted-preprints/) · [source](https://arxiv.org/abs/2611.06998) |
@@ -264,6 +265,7 @@ Files: [`catalogue.csv`](catalogue.csv), [`catalogue.json`](catalogue.json). Lic
 
 ## Batch catalogues of smaller results
 
+- 2026-11-09: [AI-assisted results in the 9 Nov sweep: Böhm–Lafuente conjecture with ChatGPT contributions, random profinite group thresholds with AI-generated proofs, Kelly's conjecture disproved in Lean, Ajit's AI counterexamples in positive characteristic, plus 20 Hexagon backlog works](https://postcutoff.com/e/2026-11-09-ai-assisted-results-november-9-listing/)
 - 2026-11-08: [AI-assisted results in the 8 Nov sweep: GPT-6-Pro claims on Lusztig positivity (multiplication) and Foregger's permanent conjecture, Claude's Lean proof of Gasull's periodicity problem at every order, a second MUB-6 proof, a fourth Courtade–Kumar proof, plus 20 Hexagon works](https://postcutoff.com/e/2026-11-08-ai-assisted-results-november-8-listing/)
 - 2026-11-07: [AI-assisted results in the 7 Nov sweep: Whiteley's vertex-splitting conjecture by ChatGPT 6.1 Sol, single-exponential Minimum Bisection, isometric embedding in n(n+1)/2+28 dimensions, Armstrong–Vicol's Obukhov–Corrsin regularization, plus 35 Hexagon works](https://postcutoff.com/e/2026-11-07-ai-assisted-results-november-7-listing/)
 - 2026-11-06: [AI-assisted results in the 6 Nov 2026 sweep: generalized Lax conjecture for mixed determinants, L'vov–Kaplansky in degree four, unrecognizability of #²(S²×S²) by ChatGPT's agent, second Hamilton cycles from r ≥ 17, plus 26 Hexagon works](https://postcutoff.com/e/2026-11-06-ai-assisted-results-november-6-listing/)
