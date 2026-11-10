@@ -1,9 +1,24 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-10",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 241,
+ "count": 243,
  "results": [
+  {
+   "date": "2026-11-09",
+   "problem": "Rational points on X_ns+(121); the level-121 case of the Rouse–Sutherland–Zureick-Brown conjecture on ℓ-adic images",
+   "result": "Claimed: X_ns+(121)(Q) consists of 7 CM points, so the 11-adic images of non-CM elliptic curves over Q are determined",
+   "open_since": "",
+   "ai_system": "Claude Opus 5.5; GPT-6.1 Sol; GPT-6 Astra; Claude Code",
+   "human_role": "Humans chose the problem and directed; AI produced almost all the mathematics, computations and text; partial (2611.00231) or no (2611.00255) human checking",
+   "verification": "Two independent unrefereed Hexagon deposits with code; not peer-reviewed or formalized",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2611.00231",
+   "postcutoff": "https://postcutoff.com/e/2026-11-09-non-split-cartan-121-two-ai-proofs/",
+   "id": "2026-11-09-non-split-cartan-121-two-ai-proofs"
+  },
   {
    "date": "2026-11-09",
    "problem": "Nill's conjecture: a d-dimensional reflexive polytope has at most 6^{d/2} vertices",
@@ -2525,6 +2540,21 @@
    "id": "2026-09-25-zeta2-irrationality-measure-claude-lean"
   },
   {
+   "date": "2026-09-24",
+   "problem": "Benjamini–Schramm conjecture: p_c < p_u on nonamenable quasi-transitive graphs",
+   "result": "Claimed for bond percolation (OpenAI, Lean) and for site percolation (Pei, Claude agents)",
+   "open_since": "1996",
+   "ai_system": "OpenAI internal model; Claude Opus 5.5",
+   "human_role": "OpenAI: not stated per paper; Pei: chose problem and strategy, reviewed key lemmas, AI found and wrote proofs",
+   "verification": "Bond: Lean formalization with Comparator challenges; site: unrefereed, no formalization",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://github.com/openai/math/blob/main/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf",
+   "postcutoff": "https://postcutoff.com/e/2026-09-24-benjamini-schramm-pc-pu-nonamenable-openai-lean/",
+   "id": "2026-09-24-benjamini-schramm-pc-pu-nonamenable-openai-lean"
+  },
+  {
    "date": "2026-09-22",
    "problem": "Planar Mumford–Shah conjecture (regularity of minimizing discontinuity sets)",
    "result": "Claimed classification of planar Mumford–Shah generalized global minimizers, which would imply the conjecture.",
@@ -2895,7 +2925,7 @@
    "status": "confirmed",
    "lean": "yes",
    "confidence": "medium",
-   "primary_source": "https://github.com/tadamcz/mean-value-problem",
+   "primary_source": "https://hexagonmath.org/abs/2611.00258",
    "postcutoff": "https://postcutoff.com/e/2026-09-03-smale-mean-value-conjecture-disproved-gpt-6-astra/",
    "id": "2026-09-03-smale-mean-value-conjecture-disproved-gpt-6-astra"
   },
@@ -3225,7 +3255,7 @@
    "status": "confirmed",
    "lean": "no",
    "confidence": "high",
-   "primary_source": "https://arxiv.org/abs/2608.00222",
+   "primary_source": "https://github.com/google-deepmind/formal-conjectures/commit/1aab32a062c4fe07048b5c5ce7515529604ec3ea",
    "postcutoff": "https://postcutoff.com/e/2026-07-20-jacobian-conjecture-counterexample/",
    "id": "2026-07-20-jacobian-conjecture-counterexample"
   },
@@ -3621,6 +3651,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-11-10",
+   "title": "AI-assisted results in the 10 Nov sweep: Etingof–Gelaki finiteness question answered by ChatGPT, Mendel's GPT-6 Astra metric cotype bound, Milne's report on OpenAI's Hodge preprints, R(12,12) ≥ 1661 with Claude, plus 65 Hexagon deposits and 200 new arXiv disclosures",
+   "postcutoff": "https://postcutoff.com/e/2026-11-10-ai-assisted-results-november-10-listing/"
+  },
   {
    "date": "2026-11-09",
    "title": "AI-assisted results in the 9 Nov sweep: Böhm–Lafuente conjecture with ChatGPT contributions, random profinite group thresholds with AI-generated proofs, Kelly's conjecture disproved in Lean, Ajit's AI counterexamples in positive characteristic, plus 20 Hexagon backlog works",
