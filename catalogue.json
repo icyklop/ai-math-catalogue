@@ -1,9 +1,84 @@
 {
- "generated": "2026-11-10",
+ "generated": "2026-11-12",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 243,
+ "count": 248,
  "results": [
+  {
+   "date": "2026-11-11",
+   "problem": "Benson–Etingof–Ostrik conjecture (2023) on symmetric tensor categories of moderate growth in positive characteristic",
+   "result": "Claimed full proof: every such category admits a symmetric tensor functor to a higher Verlinde category, possibly of infinite height",
+   "open_since": "2023",
+   "ai_system": "GPT-6 Astra",
+   "human_role": "AI-generated paper; five specialists (including two of the conjecture's authors) directed it with questions, reductions and ideas",
+   "verification": "Unrefereed Hexagon deposit; partly checked by the contributors",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2611.00301",
+   "postcutoff": "https://postcutoff.com/e/2026-11-11-benson-etingof-ostrik-conjecture-gpt-6-astra/",
+   "id": "2026-11-11-benson-etingof-ostrik-conjecture-gpt-6-astra"
+  },
+  {
+   "date": "2026-11-11",
+   "problem": "Smale's mean value problem (1981): the best constant K in |p(z) − p(c)|/|z − c| ≤ K|p'(z)| at some critical point c",
+   "result": "Claimed: the best constant over all degrees is exactly 4 (Smale's original bound), approached but not attained as the degree grows",
+   "open_since": "1981",
+   "ai_system": "Claude; ChatGPT",
+   "human_role": "Author steered AI models in dialogue; work 'done overwhelmingly by AI models'",
+   "verification": "Lean 4 formalization of the main theorem (standard axioms only, comparator-checked); paper unrefereed",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2611.00282",
+   "postcutoff": "https://postcutoff.com/e/2026-11-11-smale-mean-value-constant-equals-4-goel-lean/",
+   "id": "2026-11-11-smale-mean-value-constant-equals-4-goel-lean"
+  },
+  {
+   "date": "2026-11-11",
+   "problem": "Talagrand's Ultimate Matching Conjecture (Research Problem 17.1.2 in 'Upper and Lower Bounds for Stochastic Processes')",
+   "result": "Claimed proof for all finite critical exponent pairs α₁, α₂ > 2 with 1/α₁ + 1/α₂ = 1/2; claimed failure at the endpoints (2, ∞), (∞, 2)",
+   "open_since": "",
+   "ai_system": "GPT-6",
+   "human_role": "AI-assisted: specialists steered weeks of LLM interaction; GPT-6 found the critical and endpoint proofs; text mostly LLM-written",
+   "verification": "Unrefereed Hexagon preprint; LLM proof-checking only",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2611.00294",
+   "postcutoff": "https://postcutoff.com/e/2026-11-11-talagrand-ultimate-matching-conjecture-gpt-6/",
+   "id": "2026-11-11-talagrand-ultimate-matching-conjecture-gpt-6"
+  },
+  {
+   "date": "2026-11-11",
+   "problem": "Large similar (rotated) copies of a triangle in planar sets of positive upper density (planar case of Bourgain's simplex theorem)",
+   "result": "Claimed: all sufficiently large dilates of any noncollinear triangle occur, up to translation and rotation, in every planar set of positive upper Banach density",
+   "open_since": "",
+   "ai_system": "GPT-6 Astra Pro; Codex; Claude Opus 5.5",
+   "human_role": "Submitter chose the method (trilinear oscillatory integrals) and prompted; model wrote the proof; Claude wrote the Lean proof",
+   "verification": "Unrefereed Hexagon note; Lean formalization by Claude Opus 5.5 (not independently reviewed)",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2611.00302",
+   "postcutoff": "https://postcutoff.com/e/2026-11-11-triangles-positive-density-plane-gpt-6-astra-pro/",
+   "id": "2026-11-11-triangles-positive-density-plane-gpt-6-astra-pro"
+  },
+  {
+   "date": "2026-11-10",
+   "problem": "Explicit (deterministic) matrices with the restricted isometry property beyond the square-root bottleneck (Tao 2007)",
+   "result": "Explicit real RIP matrices with k = m^(2/3−o(1)), plus a proof that absolute-value Gram-matrix methods cannot exceed exponent 2/3",
+   "open_since": "2007",
+   "ai_system": "GPT-6 Astra; ChatGPT; Claude Opus 5.5",
+   "human_role": "AI-generated main proof; humans digested it, found the 2/3 barrier with ChatGPT and rewrote the paper",
+   "verification": "Preprint; Lean formalization stated by the authors",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.14475",
+   "postcutoff": "https://postcutoff.com/e/2026-11-10-explicit-rip-matrices-two-thirds-gpt-6-astra/",
+   "id": "2026-11-10-explicit-rip-matrices-two-thirds-gpt-6-astra"
+  },
   {
    "date": "2026-11-09",
    "problem": "Rational points on X_ns+(121); the level-121 case of the Rouse–Sutherland–Zureick-Brown conjecture on ℓ-adic images",
@@ -2085,7 +2160,7 @@
    "status": "pending",
    "lean": "yes",
    "confidence": "medium",
-   "primary_source": "https://github.com/openai/math/blob/main/preprints/The-Falconer-distance-conjecture-in-all-dimensions-September-23-2026/paper.pdf",
+   "primary_source": "https://arxiv.org/abs/2611.13789",
    "postcutoff": "https://postcutoff.com/e/2026-10-06-openai-falconer-distance-conjecture-lean/",
    "id": "2026-10-06-openai-falconer-distance-conjecture-lean"
   },
@@ -2925,7 +3000,7 @@
    "status": "confirmed",
    "lean": "yes",
    "confidence": "medium",
-   "primary_source": "https://hexagonmath.org/abs/2611.00258",
+   "primary_source": "https://hexagonmath.org/abs/2611.00282",
    "postcutoff": "https://postcutoff.com/e/2026-09-03-smale-mean-value-conjecture-disproved-gpt-6-astra/",
    "id": "2026-09-03-smale-mean-value-conjecture-disproved-gpt-6-astra"
   },
@@ -3651,6 +3726,16 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-11-12",
+   "title": "AI-assisted results in the 12 Nov sweep: Petty's polar projection conjecture claimed with AI, helium and lithium ionization bounds via GPT-6 Astra and Pharos, Tomar's Lean-checked kissing, Steiner-ratio and thrackle bounds, a three-part AI Langlands claim, plus 94 Hexagon deposits",
+   "postcutoff": "https://postcutoff.com/e/2026-11-12-ai-assisted-results-november-12-listing/"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "AI-assisted results in the 11 Nov sweep: a GPT-6.1 key idea for Ten Martini's supercritical case, a GPT-6 Astra one-shot RIP theorem, ChatGPT-found ideas for hyperelliptic linear systems, Stoll's Lean-checked Galois iterates with Claude, plus 35 Hexagon deposits and the 10–11 Nov arXiv listing",
+   "postcutoff": "https://postcutoff.com/e/2026-11-11-ai-assisted-results-november-11-listing/"
+  },
   {
    "date": "2026-11-10",
    "title": "AI-assisted results in the 10 Nov sweep: Etingof–Gelaki finiteness question answered by ChatGPT, Mendel's GPT-6 Astra metric cotype bound, Milne's report on OpenAI's Hodge preprints, R(12,12) ≥ 1661 with Claude, plus 65 Hexagon deposits and 200 new arXiv disclosures",
