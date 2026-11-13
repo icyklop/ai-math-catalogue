@@ -1,9 +1,54 @@
 {
- "generated": "2026-11-12",
+ "generated": "2026-11-13",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 248,
+ "count": 253,
  "results": [
+  {
+   "date": "2026-11-12",
+   "problem": "Fixed-profile soliton resolution for the nonradial focusing energy-critical wave equation (Duyckaerts–Kenig–Merle)",
+   "result": "Counterexamples in dimensions 3 and 5: bounded global solutions whose stationary core changes similarity class",
+   "open_since": "",
+   "ai_system": "GPT-6 Astra; ChatGPT",
+   "human_role": "Authors conceived the mechanism; ChatGPT helped develop the proof; GPT-6 Astra worked out the estimates",
+   "verification": "Preprint",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.17291",
+   "postcutoff": "https://postcutoff.com/e/2026-11-12-fixed-profile-soliton-resolution-counterexamples-gpt-6-astra/",
+   "id": "2026-11-12-fixed-profile-soliton-resolution-counterexamples-gpt-6-astra"
+  },
+  {
+   "date": "2026-11-12",
+   "problem": "Does test-free Propositional Dynamic Logic have Craig interpolation?",
+   "result": "No: an explicit test-free validity with no test-free interpolant",
+   "open_since": "",
+   "ai_system": "Claude Fable; Aristotle",
+   "human_role": "Human set up and repaired the Lean development; Claude Fable found the counterexample and its Lean proof; human simplified it and wrote the paper",
+   "verification": "Formal proof in Lean (author's site); preprint",
+   "status": "confirmed",
+   "lean": "yes",
+   "confidence": "high",
+   "primary_source": "https://arxiv.org/abs/2611.16759",
+   "postcutoff": "https://postcutoff.com/e/2026-11-12-test-free-pdl-no-craig-interpolation-claude-fable/",
+   "id": "2026-11-12-test-free-pdl-no-craig-interpolation-claude-fable"
+  },
+  {
+   "date": "2026-11-11",
+   "problem": "Delocalization (QUE) and the critical localization–delocalization crossover for 1-d random band matrices (Fyodorov–Mirlin 1991)",
+   "result": "QUE for W²/N → ∞ and a DMPK-described critical law at W² ≍ N for the Gaussian periodic block model",
+   "open_since": "1991",
+   "ai_system": "AxiomProver; unnamed LLMs",
+   "human_role": "Authors provided the architecture; LLMs drafted proofs, edited by authors; AxiomProver autoformalized everything",
+   "verification": "Formal proof in Lean 4 (AxiomProver, ~1.2M lines including cited results); preprint",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.15085",
+   "postcutoff": "https://postcutoff.com/e/2026-11-11-band-matrix-que-critical-crossover-axiomprover-lean/",
+   "id": "2026-11-11-band-matrix-que-critical-crossover-axiomprover-lean"
+  },
   {
    "date": "2026-11-11",
    "problem": "Benson–Etingof–Ostrik conjecture (2023) on symmetric tensor categories of moderate growth in positive characteristic",
@@ -18,6 +63,21 @@
    "primary_source": "https://hexagonmath.org/abs/2611.00301",
    "postcutoff": "https://postcutoff.com/e/2026-11-11-benson-etingof-ostrik-conjecture-gpt-6-astra/",
    "id": "2026-11-11-benson-etingof-ostrik-conjecture-gpt-6-astra"
+  },
+  {
+   "date": "2026-11-11",
+   "problem": "Hyperelliptic Schottky problem (codim-3 theta singularities); Pareschi–Popa Conjecture A; Debarre's conjecture on base loci",
+   "result": "Codim Sing(Θ) = 3 characterizes hyperelliptic Jacobians; IT₀ criterion for GV-subschemes; generic reducedness of codim-2 base loci",
+   "open_since": "",
+   "ai_system": "unnamed AI tools",
+   "human_role": "Human-led; AI suggested the final step of the main proof and constructed the sharpness example",
+   "verification": "Preprint",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.15799",
+   "postcutoff": "https://postcutoff.com/e/2026-11-11-hyperelliptic-schottky-problem-huang-jiang-ai/",
+   "id": "2026-11-11-hyperelliptic-schottky-problem-huang-jiang-ai"
   },
   {
    "date": "2026-11-11",
@@ -153,6 +213,21 @@
    "primary_source": "https://arxiv.org/abs/2611.06998",
    "postcutoff": "https://postcutoff.com/e/2026-11-06-tusnady-problem-settled-two-ai-assisted-preprints/",
    "id": "2026-11-06-tusnady-problem-settled-two-ai-assisted-preprints"
+  },
+  {
+   "date": "2026-11-05",
+   "problem": "Is ℤ a Diophantine subset of ℚ? (Mazur's conjecture predicts no; Hilbert's tenth problem over ℚ)",
+   "result": "Two claimed proofs that ℤ is Diophantine in ℚ, with explicit quartics (Glazer: 222 variables; Burungale: degree at most four), refuting Mazur's conjecture on the topology of rational points",
+   "open_since": "1992",
+   "ai_system": "GPT-6 Astra; GPT-6.1 Sol; Claude Opus 5.5; Claude Fable 5.1; Claude Fable 5.2; ChatGPT; Claude",
+   "human_role": "Glazer: manuscript produced with Astra, Sol and Opus, audited by Fable and by human-run AI reviews; Burungale: human proof, ChatGPT assisted Sections 4–5",
+   "verification": "Unrefereed (GitHub manuscript v16; arXiv preprint); Glazer's Lean formalization incomplete (main declaration has sorry)",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://github.com/elliotglazer/diophantine-z-q",
+   "postcutoff": "https://postcutoff.com/e/2026-11-05-z-diophantine-in-q-glazer-burungale/",
+   "id": "2026-11-05-z-diophantine-in-q-glazer-burungale"
   },
   {
    "date": "2026-11-05",
@@ -3726,6 +3801,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-11-13",
+   "title": "AI-assisted results in the 13 Nov sweep: ℤ Diophantine in ℚ, the hyperelliptic Schottky problem, a BST with the unified bound, band-matrix QUE in 1.2M lines of Lean, plus Reed–Solomon proximity gaps 'carried out entirely with AI', split rank, online transportation and 26 Hexagon backlog lines",
+   "postcutoff": "https://postcutoff.com/e/2026-11-13-ai-assisted-results-november-13-listing/"
+  },
   {
    "date": "2026-11-12",
    "title": "AI-assisted results in the 12 Nov sweep: Petty's polar projection conjecture claimed with AI, helium and lithium ionization bounds via GPT-6 Astra and Pharos, Tomar's Lean-checked kissing, Steiner-ratio and thrackle bounds, a three-part AI Langlands claim, plus 94 Hexagon deposits",
