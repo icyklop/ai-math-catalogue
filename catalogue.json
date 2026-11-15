@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-14",
+ "generated": "2026-11-15",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 257,
+ "count": 261,
  "results": [
   {
    "date": "2026-11-13",
@@ -33,6 +33,21 @@
    "primary_source": "https://hexagonmath.org/abs/2611.00426",
    "postcutoff": "https://postcutoff.com/e/2026-11-13-qiyue-tang-gpt-6-pro-representation-theory-conjectures/",
    "id": "2026-11-13-qiyue-tang-gpt-6-pro-representation-theory-conjectures"
+  },
+  {
+   "date": "2026-11-12",
+   "problem": "Scaling limit of tilted low-temperature 3D Ising interfaces (and of (2+1)D SOS)",
+   "result": "GFF scaling limit at large β for boundary conditions of positive slope",
+   "open_since": "",
+   "ai_system": "GPT-6 Astra; Claude Fable 5.1",
+   "human_role": "Human-led: authors designed the argument and stated all lemmas; the model wrote the detailed proofs; a second model audited",
+   "verification": "Unrefereed preprint",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.16943",
+   "postcutoff": "https://postcutoff.com/e/2026-11-12-3d-ising-interfaces-gff-limit-laslier-lubetzky-astra/",
+   "id": "2026-11-12-3d-ising-interfaces-gff-limit-laslier-lubetzky-astra"
   },
   {
    "date": "2026-11-12",
@@ -93,6 +108,21 @@
    "primary_source": "https://hexagonmath.org/abs/2611.00301",
    "postcutoff": "https://postcutoff.com/e/2026-11-11-benson-etingof-ostrik-conjecture-gpt-6-astra/",
    "id": "2026-11-11-benson-etingof-ostrik-conjecture-gpt-6-astra"
+  },
+  {
+   "date": "2026-11-11",
+   "problem": "Do classifiable C*-algebras admit untwisted (principal) étale groupoid models?",
+   "result": "Yes for every classifiable stably finite C*-algebra; combined with Evington–Sibbel, for all classifiable C*-algebras",
+   "open_since": "",
+   "ai_system": "GPT-5.6 Sol; GPT-6 Astra; GPT-6.1 Sol; Claude Opus 5; Claude Opus 5.5; Claude Fable 5.1",
+   "human_role": "Human–AI collaboration; AI produced initial constructions and arguments that the authors rebuilt into a readable proof",
+   "verification": "Unrefereed preprint",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.16079",
+   "postcutoff": "https://postcutoff.com/e/2026-11-11-classifiable-c-star-algebras-untwisted-groupoid-models-ai/",
+   "id": "2026-11-11-classifiable-c-star-algebras-untwisted-groupoid-models-ai"
   },
   {
    "date": "2026-11-11",
@@ -186,6 +216,21 @@
   },
   {
    "date": "2026-11-09",
+   "problem": "Erdős–Herzog–Piranian lemniscate length conjecture (1958)",
+   "result": "Claimed proof in every degree, with equality cases",
+   "open_since": "1958",
+   "ai_system": "ChatGPT 6.1",
+   "human_role": "Human-led; AI for editing, figures and exploratory discussion only",
+   "verification": "Unrefereed preprint with computer-assisted estimates",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.12830",
+   "postcutoff": "https://postcutoff.com/e/2026-11-09-erdos-herzog-piranian-lemniscate-conjecture-proof/",
+   "id": "2026-11-09-erdos-herzog-piranian-lemniscate-conjecture-proof"
+  },
+  {
+   "date": "2026-11-09",
    "problem": "Nill's conjecture: a d-dimensional reflexive polytope has at most 6^{d/2} vertices",
    "result": "False for every d ≥ 8; the number of vertices can be doubly exponential in d",
    "open_since": "2004",
@@ -198,6 +243,21 @@
    "primary_source": "https://arxiv.org/abs/2611.08819",
    "postcutoff": "https://postcutoff.com/e/2026-11-09-nill-reflexive-polytopes-conjecture-disproved-gpt-6-1-sol/",
    "id": "2026-11-09-nill-reflexive-polytopes-conjecture-disproved-gpt-6-1-sol"
+  },
+  {
+   "date": "2026-11-08",
+   "problem": "Rayleigh's conjecture for the clamped plate (1877), dimensions 4 and 5",
+   "result": "Claimed proof in dimensions 4 and 5, sharp comparison with the Dirichlet eigenvalue, equality and stability",
+   "open_since": "1877",
+   "ai_system": "ChatGPT; Claude",
+   "human_role": "AI-assisted; the author used both models to develop and check arguments",
+   "verification": "Unrefereed preprint",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.11250",
+   "postcutoff": "https://postcutoff.com/e/2026-11-08-rayleigh-clamped-plate-conjecture-dimensions-4-5/",
+   "id": "2026-11-08-rayleigh-clamped-plate-conjecture-dimensions-4-5"
   },
   {
    "date": "2026-11-07",
@@ -3861,6 +3921,11 @@
   }
  ],
  "roundups": [
+  {
+   "date": "2026-11-15",
+   "title": "AI-assisted results in the 15 Nov sweep: Dvir's AI-found real LCCs, untwisted groupoid models for classifiable C*-algebras, a GFF limit for 3D Ising interfaces, Rayleigh's plate conjecture in d = 4, 5, the lemniscate conjecture, TEQ is PSPACE-complete, longest unbordered factors in linear time, Borsuk b(4) ≤ 6, AxiomProver's matroid for stack-sorting, plus 26 Hexagon backlog lines",
+   "postcutoff": "https://postcutoff.com/e/2026-11-15-ai-assisted-results-november-15-listing/"
+  },
   {
    "date": "2026-11-14",
    "title": "AI-assisted results in the 14 Nov sweep: Claude and Gödel's workbooks, DeepMind's Lean-verified quantum programs, MathHelm, the k-Clique hypothesis refuted, Herzog–Schönheim for solvable groups, Bloom's conjecture, graphic TSP 89/64, six unchecked GPT-6-Pro conjecture proofs, plus Naslund's square-difference exponent, Λ ≤ 0.174, 'prime plus at most 18 primes' and 10 Hexagon backlog lines",
