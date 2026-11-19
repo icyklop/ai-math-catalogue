@@ -1,9 +1,24 @@
 {
- "generated": "2026-11-18",
+ "generated": "2026-11-19",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 279,
+ "count": 283,
  "results": [
+  {
+   "date": "2026-11-18",
+   "problem": "Avoidability of additive squares over a finite set of integers (Justin 1972; Brown–Freedman 1987 conjecture; Pirillo–Varricchio 1994)",
+   "result": "An explicit infinite word over six positive integers with no additive square; the minimal alphabet size is 4, 5 or 6",
+   "open_since": "1972",
+   "ai_system": "GPT-6.2 Astra",
+   "human_role": "AI-written: GPT-6.2 Astra wrote almost all of the paper and the Lean check; Shallit added introduction, references and discussion and takes responsibility",
+   "verification": "Unrefereed preprint; Lean verification of the construction linked from the paper (not independently audited)",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.24441",
+   "postcutoff": "https://postcutoff.com/e/2026-11-18-additive-square-free-word-six-letters-shallit-gpt-6-2-astra/",
+   "id": "2026-11-18-additive-square-free-word-six-letters-shallit-gpt-6-2-astra"
+  },
   {
    "date": "2026-11-18",
    "problem": "Bourgain's question: unbounded growth of higher Sobolev norms for the defocusing cubic NLS on a torus",
@@ -21,6 +36,21 @@
   },
   {
    "date": "2026-11-18",
+   "problem": "McKay–Praeger conjecture: the proportion of Cayley graphs among vertex-transitive graphs of order n tends to 1",
+   "result": "Proved for graphs and digraphs over all orders, with exceptions at most 2^(−n/24+o(n)) and 2^(−n/4+o(n)) of the total",
+   "open_since": "1994",
+   "ai_system": "GPT-6.1",
+   "human_role": "AI-assisted: GPT-6.1 found the key Proposition 4.1 and Sections 3–4; the authors staged the problem, supplied the group-theoretic framework from earlier work, and rewrote the AI's arguments",
+   "verification": "Unrefereed preprint; expert-written by specialists in the area",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.23641",
+   "postcutoff": "https://postcutoff.com/e/2026-11-18-mckay-praeger-conjecture-almost-all-vertex-transitive-cayley-su-xia-gpt-6-1/",
+   "id": "2026-11-18-mckay-praeger-conjecture-almost-all-vertex-transitive-cayley-su-xia-gpt-6-1"
+  },
+  {
+   "date": "2026-11-18",
    "problem": "Equivalence of the computational Diffie–Hellman and discrete logarithm problems (den Boer–Maurer reduction without the smooth-numbers hypothesis)",
    "result": "Polynomial-time reduction from DL to a DH oracle with O(log p) bits of advice, conditional only on the zero-free half-plane from OpenAI's quasi-RH paper",
    "open_since": "1994",
@@ -33,6 +63,21 @@
    "primary_source": "https://arxiv.org/abs/2611.22290",
    "postcutoff": "https://postcutoff.com/e/2026-11-18-diffie-hellman-discrete-log-advice-maurer-zhou-claude/",
    "id": "2026-11-18-diffie-hellman-discrete-log-advice-maurer-zhou-claude"
+  },
+  {
+   "date": "2026-11-18",
+   "problem": "Assorted niche conjectures (Erdős 607, Pham 2022, Batista, Carraher et al. 38/39, Graffiti.pc 318) and the e-means clustering counterexamples",
+   "result": "25 claimed results in one repo (12 fully Lean-formalized, 12 partly, 1 not), plus a repaired e-means algorithm",
+   "open_since": "",
+   "ai_system": "GPT-6.2 Astra",
+   "human_role": "A high-school student and an independent researcher prompted, curated and published; GPT-6.2 Astra is credited as co-author of the repo",
+   "verification": "Unrefereed; 12 results Lean-formalized as stated, others partial or computational only",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://github.com/1337isnot1337/solved-conjectures",
+   "postcutoff": "https://postcutoff.com/e/2026-11-18-gpt-6-2-astra-first-48-hours-amateur-maths-wave/",
+   "id": "2026-11-18-gpt-6-2-astra-first-48-hours-amateur-maths-wave"
   },
   {
    "date": "2026-11-18",
@@ -168,6 +213,21 @@
    "primary_source": "https://aitp-conference.org/2026/slides/JvP.pdf",
    "postcutoff": "https://postcutoff.com/e/2026-11-13-godel-workbooks-claude-von-plato/",
    "id": "2026-11-13-godel-workbooks-claude-von-plato"
+  },
+  {
+   "date": "2026-11-13",
+   "problem": "Machine-checked proof of the Robertson–Seymour Graph Minors series (graph minor theorem, structure theorem, disjoint paths algorithm)",
+   "result": "Claimed complete, sorry-free Lean 4 formalization of all 838 numbered results, with 30 false-as-printed statements and 60 proof gaps corrected",
+   "open_since": "",
+   "ai_system": "AI agents (unnamed)",
+   "human_role": "Authors directed the project; the sibling repo states the Lean code was written by AI agents in the authors' framework; method not stated in the GraphMinor README",
+   "verification": "Lean kernel, leanchecker and nanoda as reported by the authors; no independent human review of the library yet",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://github.com/mahdi-jfri/GraphMinor",
+   "postcutoff": "https://postcutoff.com/e/2026-11-13-graph-minors-series-lean-formalization-hajiaghayi-jafariraviz/",
+   "id": "2026-11-13-graph-minors-series-lean-formalization-hajiaghayi-jafariraviz"
   },
   {
    "date": "2026-11-13",
