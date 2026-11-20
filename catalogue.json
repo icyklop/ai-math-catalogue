@@ -2,8 +2,23 @@
  "generated": "2026-11-20",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 287,
+ "count": 288,
  "results": [
+  {
+   "date": "2026-11-20",
+   "problem": "Riemann Hypothesis (and Generalized Riemann Hypothesis); Clay Millennium Prize problem",
+   "result": "Claimed proof of the Riemann Hypothesis and the Generalized Riemann Hypothesis, formalized in Lean",
+   "open_since": "1859",
+   "ai_system": "Claude",
+   "human_role": "Levent Alpöge (Anthropic) working with Claude; Claude credited with rapid progress near the end; division of work not yet documented",
+   "verification": "Lean formalization released; statement fidelity and proof unverified by outside experts as of 20 Nov 2026",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://alpoge.ge",
+   "postcutoff": "https://postcutoff.com/e/2026-11-20-alpoge-claude-riemann-hypothesis-proof-claim/",
+   "id": "2026-11-20-alpoge-claude-riemann-hypothesis-proof-claim"
+  },
   {
    "date": "2026-11-19",
    "problem": "Are projective globally F-regular varieties rationally chain connected (characteristic-p analogue of rational connectedness of klt Fano varieties)?",

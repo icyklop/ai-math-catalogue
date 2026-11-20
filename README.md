@@ -2,7 +2,7 @@
 
 Mathematical results where an AI system (language models, agents, provers such as AlphaProof, AlphaEvolve, Aristotle or AxiomProver) played a disclosed role, from the [Post-Cutoff](https://postcutoff.com/) timeline. One row per result, with what was claimed, which system was used, what the humans did, and how far the result has been checked.
 
-**287 results** (56 confirmed, 229 pending, 1 disputed, 1 retracted; 137 with a Lean formalization) and 37 batch catalogues of smaller results. Generated 2026-11-20 from the timeline's data; it is regenerated with every update.
+**288 results** (56 confirmed, 230 pending, 1 disputed, 1 retracted; 138 with a Lean formalization) and 37 batch catalogues of smaller results. Generated 2026-11-20 from the timeline's data; it is regenerated with every update.
 
 **How to read the status.** *confirmed*: refereed; a complete Lean proof of an independently written or Mathlib-only statement; re-checked or re-proved by named independent experts; or an explicit finite construction or counterexample anyone can check by computation. *pending*: a preprint or unrefereed record. *disputed* / *retracted*: as stated. Several pending items are self-published claims by authors outside the field; their verification column says "unverified claim". Each row links to an entry on postcutoff.com with the sources, the authors' AI-use statement quoted where one exists, and a change log.
 
@@ -14,6 +14,7 @@ Files: [`catalogue.csv`](catalogue.csv), [`catalogue.json`](catalogue.json). Lic
 
 | Date | Problem | Result | AI system | Status | Lean | Details |
 |---|---|---|---|---|---|---|
+| 2026-11-20 | Riemann Hypothesis (and Generalized Riemann Hypothesis); Clay Millennium Prize problem | Claimed proof of the Riemann Hypothesis and the Generalized Riemann Hypothesis, formalized in Lean | Claude | pending | yes | [entry](https://postcutoff.com/e/2026-11-20-alpoge-claude-riemann-hypothesis-proof-claim/) · [source](https://alpoge.ge) |
 | 2026-11-19 | Are projective globally F-regular varieties rationally chain connected (characteristic-p… | Yes, in every positive characteristic, via purely inseparable crepant covers carrying very free curves | ChatGPT 6 Sol; Claude Opus 5.5 | pending | no | [entry](https://postcutoff.com/e/2026-11-19-globally-f-regular-rationally-chain-connected-jovinelly-lehmann-riedl/) · [source](https://arxiv.org/abs/2611.25068) |
 | 2026-11-19 | Is the calibration-based convex lifting of the Mumford–Shah functional sharp in the… | No: a strict gap between the original and lifted problems for crack-tip data, hence no calibration for the crack-tip | GPT-6 Astra | pending | no | [entry](https://postcutoff.com/e/2026-11-19-mumford-shah-crack-tip-no-calibration-carioni-patrini-gpt-6-astra/) · [source](https://arxiv.org/abs/2611.26245) |
 | 2026-11-19 | Positroid conjecture of Ferroni, Jochemko and Schröter: positroids are Ehrhart positive | Claimed: all Ehrhart coefficients of integral polypositroids are strictly positive, with coefficientwise domination by the hypersimplex | GPT-6 Astra; GPT-6.2 Astra; Claude Opus 5.5 | pending | no | [entry](https://postcutoff.com/e/2026-11-19-positroid-ehrhart-positivity-ferroni-gpt-6-astra/) · [source](https://hexagonmath.org/abs/2611.00653) |
