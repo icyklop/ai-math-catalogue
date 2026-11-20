@@ -11,7 +11,7 @@
    "open_since": "1859",
    "ai_system": "Claude",
    "human_role": "Levent Alpöge (Anthropic) working with Claude; Claude credited with rapid progress near the end; division of work not yet documented",
-   "verification": "Lean formalization released; statement fidelity and proof unverified by outside experts as of 20 Nov 2026",
+   "verification": "Lean formalization released; our read of Main.lean: it targets Mathlib's own RiemannHypothesis definition, with no sorry/axioms/kernel bypasses found by text search; not compiled by us, and not yet checked by outside experts",
    "status": "pending",
    "lean": "yes",
    "confidence": "medium",
