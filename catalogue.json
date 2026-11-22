@@ -1,9 +1,24 @@
 {
- "generated": "2026-11-21",
+ "generated": "2026-11-22",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 293,
+ "count": 298,
  "results": [
+  {
+   "date": "2026-11-21",
+   "problem": "Finite-time singularity of the 2D inviscid Boussinesq equations from smooth data without boundary or forcing",
+   "result": "Claimed: smooth odd periodic data on T² whose temperature gradient blows up at the origin in finite time.",
+   "open_since": "",
+   "ai_system": "ChatGPT (GPT-6.1 Sol)",
+   "human_role": "Human-led with AI tools: the authors proposed the mechanism; ChatGPT assisted with the detailed computations; authors state they checked everything",
+   "verification": "Unverified claim (Hexagon deposit, not refereed, no formal check)",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "low",
+   "primary_source": "https://hexagonmath.org/abs/2611.00792",
+   "postcutoff": "https://postcutoff.com/e/2026-11-21-boussinesq-2d-torus-smooth-blowup-chen-hou-xiang-chatgpt/",
+   "id": "2026-11-21-boussinesq-2d-torus-smooth-blowup-chen-hou-xiang-chatgpt"
+  },
   {
    "date": "2026-11-21",
    "problem": "Turán density of the three-uniform tight five-cycle C5^3 (conjecture attributed to Mubayi and Rödl, stated by Mubayi, Pikhurko and Sudakov)",
@@ -18,6 +33,21 @@
    "primary_source": "https://hexagonmath.org/abs/2611.00770",
    "postcutoff": "https://postcutoff.com/e/2026-11-21-tight-five-cycle-turan-density-peter-graham-ai-lean/",
    "id": "2026-11-21-tight-five-cycle-turan-density-peter-graham-ai-lean"
+  },
+  {
+   "date": "2026-11-21",
+   "problem": "Brück's conjecture (1996) on entire functions sharing one value CM with their derivative",
+   "result": "Claimed proof for all nonconstant entire functions of finite hyper-order not a positive integer; main theorem formalized in Lean 4.",
+   "open_since": "1996",
+   "ai_system": "ChatGPT; Codex",
+   "human_role": "AI-assisted: ChatGPT in exploration and argument checking, Codex for the Lean formalization; humans checked part of the work",
+   "verification": "Lean 4 formalization of the main theorem (automated kernel and axiom checks); not refereed",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2611.00826",
+   "postcutoff": "https://postcutoff.com/e/2026-11-21-bruck-conjecture-proof-tang-chatgpt-codex-lean/",
+   "id": "2026-11-21-bruck-conjecture-proof-tang-chatgpt-codex-lean"
   },
   {
    "date": "2026-11-21",
@@ -41,10 +71,10 @@
    "open_since": "1859",
    "ai_system": "Claude",
    "human_role": "Levent Alpöge (Anthropic) working with Claude; Claude credited with rapid progress near the end; division of work not yet documented",
-   "verification": "Lean formalization released; independently compiled by Andrew Sutherland (MIT), kernel-checked with only the three standard axioms (Scientific American, 20 Nov); statements read by hand in the leanprover-community Comparator repo; the Comparator run with independent kernels and the community module replay (46% on 21 Nov) still pending; no expert has yet explained the argument",
-   "status": "pending",
+   "verification": "Lean-verified: certified correct (statement and proof) by the Lean and Mathlib communities with Lean FRO and Mathlib Initiative endorsement, 21 Nov; independent builds, statement matching by Comparator and con-leche, acceptance by several independent kernels (Sutherland's page); not peer-reviewed, and no human-readable proof or explanation of the argument yet",
+   "status": "confirmed",
    "lean": "yes",
-   "confidence": "medium",
+   "confidence": "high",
    "primary_source": "https://alpo.ge/remark.pdf",
    "postcutoff": "https://postcutoff.com/e/2026-11-20-alpoge-claude-riemann-hypothesis-proof-claim/",
    "id": "2026-11-20-alpoge-claude-riemann-hypothesis-proof-claim"
@@ -93,6 +123,21 @@
    "primary_source": "https://hexagonmath.org/abs/2611.00721",
    "postcutoff": "https://postcutoff.com/e/2026-11-20-vasconcelos-conjecture-module-of-differentials-mok-xu-chatgpt/",
    "id": "2026-11-20-vasconcelos-conjecture-module-of-differentials-mok-xu-chatgpt"
+  },
+  {
+   "date": "2026-11-19",
+   "problem": "Optimal overlap constants for maps of the simplex to R^d (Gromov's topological overlap; Bukh–Matoušek–Nivasch conjecture for affine maps)",
+   "result": "c_d^top = c_d^aff = (d+1)!/(d+1)^(d+1) in every dimension, matching the Bukh–Matoušek–Nivasch upper bound.",
+   "open_since": "",
+   "ai_system": "GPT-6 Astra; GPT-6.1 Sol; Claude Opus 5.5",
+   "human_role": "AI-assisted: the author set the strategy and steered; GPT-6 Astra found the proof; the author rewrote it; GPT-6.1 Sol formalized the main theorem in Lean",
+   "verification": "Preprint; main theorem formalized in Lean by the author's AI pipeline; not refereed",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.26229",
+   "postcutoff": "https://postcutoff.com/e/2026-11-19-sharp-topological-overlap-every-dimension-norin-gpt-6-astra/",
+   "id": "2026-11-19-sharp-topological-overlap-every-dimension-norin-gpt-6-astra"
   },
   {
    "date": "2026-11-19",
@@ -216,6 +261,21 @@
   },
   {
    "date": "2026-11-18",
+   "problem": "El-Zahar–Erdős question (1985): do graphs of bounded clique number and huge chromatic number contain two anticomplete induced subgraphs of large chromatic number?",
+   "result": "No: triangle-free graphs of any girth and arbitrarily large chromatic number in which every anticomplete pair has a side of chromatic number at most 6.",
+   "open_since": "1985",
+   "ai_system": "GPT-6.2 Astra",
+   "human_role": "AI-assisted: GPT-6.2 Astra helped construct the counterexample and develop its proof; the authors take responsibility",
+   "verification": "Preprint; not refereed",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.24735",
+   "postcutoff": "https://postcutoff.com/e/2026-11-18-el-zahar-erdos-conjecture-disproof-gpt-6-2-astra/",
+   "id": "2026-11-18-el-zahar-erdos-conjecture-disproof-gpt-6-2-astra"
+  },
+  {
+   "date": "2026-11-18",
    "problem": "Assorted niche conjectures (Erdős 607, Pham 2022, Batista, Carraher et al. 38/39, Graffiti.pc 318) and the e-means clustering counterexamples",
    "result": "25 claimed results in one repo (12 fully Lean-formalized, 12 partly, 1 not), plus a repaired e-means algorithm",
    "open_since": "",
@@ -228,6 +288,21 @@
    "primary_source": "https://github.com/1337isnot1337/solved-conjectures",
    "postcutoff": "https://postcutoff.com/e/2026-11-18-gpt-6-2-astra-first-48-hours-amateur-maths-wave/",
    "id": "2026-11-18-gpt-6-2-astra-first-48-hours-amateur-maths-wave"
+  },
+  {
+   "date": "2026-11-18",
+   "problem": "Stafford's 1978 conjecture: 1 = dR + FdS is solvable for every nonzero d in the Weyl algebra",
+   "result": "Proved over any field of characteristic zero; every finitely generated torsion A_n(k)-module is cyclic; formalized in Lean.",
+   "open_since": "1978",
+   "ai_system": "GPT-6.1; Claude Opus 5; Claude Opus 5.5",
+   "human_role": "AI-assisted: the first author steered agents with short instructions; agents found, formalized and revised the proof; authors reviewed the paper–Lean correspondence",
+   "verification": "Formal proof in Lean (per the authors); preprint not refereed",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.24577",
+   "postcutoff": "https://postcutoff.com/e/2026-11-18-stafford-conjecture-weyl-algebra-ai-agents-lean/",
+   "id": "2026-11-18-stafford-conjecture-weyl-algebra-ai-agents-lean"
   },
   {
    "date": "2026-11-18",
