@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 298,
+ "count": 302,
  "results": [
   {
    "date": "2026-11-21",
@@ -93,6 +93,51 @@
    "primary_source": "https://github.com/tristanbuckmaster/navier-stokes",
    "postcutoff": "https://postcutoff.com/e/2026-11-20-navier-stokes-unforced-blowup-alpoge-buckmaster-claude/",
    "id": "2026-11-20-navier-stokes-unforced-blowup-alpoge-buckmaster-claude"
+  },
+  {
+   "date": "2026-11-20",
+   "problem": "Zimmer program: classify actions of higher-rank lattices on compact manifolds (Fisher–Melnick conjecture in dimension n)",
+   "result": "Claimed classification of real-analytic SL(n,ℝ)-lattice actions on closed n-manifolds and an open-dense homogeneous classification for volume-preserving analytic actions.",
+   "open_since": "",
+   "ai_system": "GPT-6 Astra; GPT-6.1 Sol",
+   "human_role": "Human strategy (since 2014–15), AI-developed proofs of the many cases and technical lemmas; partial Lean check",
+   "verification": "Unrefereed preprints; Lean verification partial and in progress",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.27055",
+   "postcutoff": "https://postcutoff.com/e/2026-11-20-lattice-actions-classification-zimmer-program-rodriguez-hertz-wang-gpt-6-astra/",
+   "id": "2026-11-20-lattice-actions-classification-zimmer-program-rodriguez-hertz-wang-gpt-6-astra"
+  },
+  {
+   "date": "2026-11-20",
+   "problem": "Pólya–Szegő conjecture (1951): among n-gons of fixed area the regular n-gon minimizes the first Dirichlet eigenvalue",
+   "result": "Claimed for every n ≥ 3 with uniqueness and a linear correction (Li, ChatGPT-assisted); a human-only proof for n ≥ 5 (Wang) appeared days earlier; the Neumann analogue is claimed by Luo and Xie with AI tools.",
+   "open_since": "1951",
+   "ai_system": "ChatGPT",
+   "human_role": "AI-assisted: the author states ChatGPT developed parts of two key arguments and checked estimates; the author takes responsibility",
+   "verification": "Unrefereed preprints; no Lean formalization",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.27968",
+   "postcutoff": "https://postcutoff.com/e/2026-11-20-polygonal-faber-krahn-polya-szego-proofs-yutian-li-chatgpt/",
+   "id": "2026-11-20-polygonal-faber-krahn-polya-szego-proofs-yutian-li-chatgpt"
+  },
+  {
+   "date": "2026-11-20",
+   "problem": "Ritt problem: decide whether one prime differential ideal (given by a characteristic set) is contained in another",
+   "result": "Claimed decidable, together with primality testing and prime decomposition of radical differential ideals.",
+   "open_since": "1936",
+   "ai_system": "GPT-6 Astra",
+   "human_role": "AI-generated argument: the authors say ChatGPT-6 Astra generated it; they wrote the manuscript and take responsibility",
+   "verification": "Unrefereed preprint; no formalization",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.27008",
+   "postcutoff": "https://postcutoff.com/e/2026-11-20-ritt-problem-decidable-fang-freitag-harrison-trainor-chatgpt/",
+   "id": "2026-11-20-ritt-problem-decidable-fang-freitag-harrison-trainor-chatgpt"
   },
   {
    "date": "2026-11-20",
@@ -198,6 +243,21 @@
    "primary_source": "https://arxiv.org/abs/2611.25164",
    "postcutoff": "https://postcutoff.com/e/2026-11-19-shortest-paths-4-polytopes-np-hard-igor-pak-chatgpt/",
    "id": "2026-11-19-shortest-paths-4-polytopes-np-hard-igor-pak-chatgpt"
+  },
+  {
+   "date": "2026-11-19",
+   "problem": "Thue choice number of the path (Grytczuk–Przybyło–Zhu conjecture: lists of size 3 suffice for square-free words)",
+   "result": "Proved: lists of size three always admit an infinite square-free word, with exponential growth (5/4)^n.",
+   "open_since": "",
+   "ai_system": "Claude",
+   "human_role": "AI-assisted: Claude supplied the key state-merging idea, its soundness argument and first code; the author simplified, rewrote and verified",
+   "verification": "Computer-assisted proof with published code; unrefereed preprint",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.26768",
+   "postcutoff": "https://postcutoff.com/e/2026-11-19-thue-choice-number-path-three-rosenfeld-claude/",
+   "id": "2026-11-19-thue-choice-number-path-three-rosenfeld-claude"
   },
   {
    "date": "2026-11-18",
