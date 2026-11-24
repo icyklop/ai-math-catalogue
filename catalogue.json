@@ -2,7 +2,7 @@
  "generated": "2026-11-24",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 307,
+ "count": 308,
  "results": [
   {
    "date": "2026-11-24",
@@ -18,6 +18,21 @@
    "primary_source": "https://arxiv.org/abs/2611.29821",
    "postcutoff": "https://postcutoff.com/e/2026-11-24-waring-problem-linear-bound-chow-dietmann-gpt-6-2-astra/",
    "id": "2026-11-24-waring-problem-linear-bound-chow-dietmann-gpt-6-2-astra"
+  },
+  {
+   "date": "2026-11-24",
+   "problem": "Caiolo–Ferroni–Hoster Conjecture 7.3: real-rootedness of dual Chow polynomials of matroids",
+   "result": "Claimed infinite family of rank-5 matroids (q ≥ 17) whose dual Chow polynomial has no real roots, refuting the conjecture and the accompanying augmented real-rootedness assertion",
+   "open_since": "2026",
+   "ai_system": "GPT-6.2 Astra",
+   "human_role": "High-school student curating results produced with GPT-6.2 Astra; credits Bérczi–Coron–Eur–Li's construction method",
+   "verification": "Lean (full family, per the repo) plus exact computer check; unrefereed, no comment from the conjecture's authors yet",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://github.com/1337isnot1337/solved-conjectures/tree/main/results/caiolo-ferroni-hoster",
+   "postcutoff": "https://postcutoff.com/e/2026-11-24-caiolo-ferroni-hoster-conjecture-disproved-cinna-davis-gpt-6-2-astra/",
+   "id": "2026-11-24-caiolo-ferroni-hoster-conjecture-disproved-cinna-davis-gpt-6-2-astra"
   },
   {
    "date": "2026-11-24",
