@@ -1,9 +1,24 @@
 {
- "generated": "2026-11-26",
+ "generated": "2026-11-27",
  "source": "https://postcutoff.com",
  "license": "CC-BY-4.0",
- "count": 318,
+ "count": 323,
  "results": [
+  {
+   "date": "2026-11-26",
+   "problem": "Pak–Panova conjecture: counting contingency tables with unary margins is #P-complete (strong #P-completeness of Kostka and Littlewood–Richardson coefficients)",
+   "result": "#P-complete under polynomial-time Turing reductions for integer and 0–1 tables; Kostka and LR coefficients strongly #P-complete; Grassmannian Schubert structure constants #P-hard",
+   "open_since": "",
+   "ai_system": "ChatGPT (6.2)",
+   "human_role": "AI found the proof; the human author, who posed the conjecture, wrote and edited parts and verified everything",
+   "verification": "Author-checked; unrefereed; deposited only on Hexagon",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://hexagonmath.org/abs/2611.01117",
+   "postcutoff": "https://postcutoff.com/e/2026-11-26-contingency-tables-unary-sharp-p-complete-panova-chatgpt-hexagon/",
+   "id": "2026-11-26-contingency-tables-unary-sharp-p-complete-panova-chatgpt-hexagon"
+  },
   {
    "date": "2026-11-25",
    "problem": "Polynomial bound for the Directed Grid Theorem (Kawarabayashi–Kreutzer 2015)",
@@ -213,6 +228,51 @@
    "primary_source": "https://arxiv.org/abs/2611.29957",
    "postcutoff": "https://postcutoff.com/e/2026-11-24-rayleigh-clamped-plate-conjecture-dimensions-four-five-gpt-6-astra/",
    "id": "2026-11-24-rayleigh-clamped-plate-conjecture-dimensions-four-five-gpt-6-astra"
+  },
+  {
+   "date": "2026-11-23",
+   "problem": "Polynomial mixing of 2D Ising Glauber dynamics with plus boundary conditions at low temperature (Lifshitz 1962 prediction; quasi-polynomial bound of Lubetzky–Martinelli–Sly–Toninelli 2013)",
+   "result": "Mixing time polynomial in n at all low temperatures",
+   "open_since": "",
+   "ai_system": "ChatGPT 6.0 Astra",
+   "human_role": "Human-led strategy and text; Astra implemented the strategy through intermediate models and identified the weak-Poincaré-inequality route",
+   "verification": "Unrefereed arXiv preprint by specialists",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.31180",
+   "postcutoff": "https://postcutoff.com/e/2026-11-23-ising-plus-boundary-polynomial-mixing-ganguly-gheissari-astra/",
+   "id": "2026-11-23-ising-plus-boundary-polynomial-mixing-ganguly-gheissari-astra"
+  },
+  {
+   "date": "2026-11-23",
+   "problem": "Is every Kolmogorov–Loveland random sequence Martin-Löf random?",
+   "result": "No: a measure supported on ML-nonrandom sequences gives KL-random sequences almost surely (claim)",
+   "open_since": "",
+   "ai_system": "GPT-6.2 Astra",
+   "human_role": "Authors directed; GPT-6.2 Astra helped construct the measure and develop the proof",
+   "verification": "Unrefereed arXiv preprint; no expert check found",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.31004",
+   "postcutoff": "https://postcutoff.com/e/2026-11-23-kolmogorov-loveland-martin-lof-randomness-separated-gpt-6-2-astra/",
+   "id": "2026-11-23-kolmogorov-loveland-martin-lof-randomness-separated-gpt-6-2-astra"
+  },
+  {
+   "date": "2026-11-23",
+   "problem": "Partition rank versus analytic rank conjecture (Lovett; Kazhdan–Ziegler; Adiprasito–Kazhdan–Ziegler)",
+   "result": "PR_F(T) ≤ C_d·AR_F(T) for every d-linear form over every finite field",
+   "open_since": "",
+   "ai_system": "ChatGPT (GPT-5.6 Sol; GPT-6 Astra)",
+   "human_role": "AI found the 4-tensor proof; the authors generalized it to all orders, checked and simplified it",
+   "verification": "Unrefereed arXiv preprint",
+   "status": "pending",
+   "lean": "no",
+   "confidence": "medium",
+   "primary_source": "https://arxiv.org/abs/2611.30721",
+   "postcutoff": "https://postcutoff.com/e/2026-11-23-partition-rank-analytic-rank-conjecture-chen-ye-chatgpt/",
+   "id": "2026-11-23-partition-rank-analytic-rank-conjecture-chen-ye-chatgpt"
   },
   {
    "date": "2026-11-23",
@@ -2223,6 +2283,21 @@
    "primary_source": "https://arxiv.org/abs/2610.20242",
    "postcutoff": "https://postcutoff.com/e/2026-10-14-hardy-littlewood-chowla-mobius-shifted-primes-lu-wang-wu/",
    "id": "2026-10-14-hardy-littlewood-chowla-mobius-shifted-primes-lu-wang-wu"
+  },
+  {
+   "date": "2026-10-13",
+   "problem": "Romik's ambidextrous moving sofa problem (2016): is Romik's sofa of area 1.64495… optimal?",
+   "result": "Romik's ambidextrous sofa is optimal and, up to rigid motions, the unique optimum (Lean 4); also uniqueness and √ε-stability of Gerver's sofa for the ordinary problem",
+   "open_since": "2016",
+   "ai_system": "ChatGPT Pro 6; Claude Opus 5.5; Codex (GPT-6)",
+   "human_role": "Human-directed; ChatGPT Pro 6 found the proof, Claude Opus 5.5 completed the Lean formalization, Codex wrote the paper; no human review of proofs or statements",
+   "verification": "Lean 4 + Mathlib, Comparator with two kernels, Palomar-registered; no human review; unrefereed",
+   "status": "pending",
+   "lean": "yes",
+   "confidence": "medium",
+   "primary_source": "https://github.com/vltanh/lean4-ambidextrous-sofa",
+   "postcutoff": "https://postcutoff.com/e/2026-10-13-ambidextrous-moving-sofa-romik-optimal-lean-chatgpt-pro-6/",
+   "id": "2026-10-13-ambidextrous-moving-sofa-romik-optimal-lean-chatgpt-pro-6"
   },
   {
    "date": "2026-10-13",
